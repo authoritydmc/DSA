@@ -1,6 +1,13 @@
 class Solution {
     public String getHint(String secret, String guess) {
+//         Logic :
+// 
+//         For BULLS :  just count bulls and do not store in HashMap as they are pretty simple to match i.e if character match at a index
         
+//         for COWS: 
+// two hashmaps for cows calulation : 1 for secret and 1 for guess .
+//         step 2: Store each character frequency which are not bulls .
+//         step 3 : to find cow pairs just see which hashMap has less frequency for common characters 
         
         int bull=0;
         int cow=0;
