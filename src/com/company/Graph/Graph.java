@@ -61,6 +61,7 @@ public class Graph <T>{
     }
     public void BFSTraversal(T source)
     {
+        System.out.println("Showing BFS Traversal for "+source);
         BFSTraversal(source,false);
 
     }
@@ -132,11 +133,55 @@ public class Graph <T>{
 
         }
     }
-        public  boolean isPathExist(T source,T destination)
+    public boolean isPathExist(T source,T destination)
+    {
+        return isPathExist(source,destination,false);
+    }
+        public  boolean isPathExist(T source,T destination,boolean byDFS)
         {
-            return isPathExist(source,destination,true);
+            System.out.println("Checking path Existence between " +source+" to "+destination);
+            if (byDFS)
+                return isPathExistByDFS(source,destination,true);
+                else
+            return isPathExistBYBFS(source,destination,true);
+
         }
-    public  boolean isPathExist(T source,T destination,boolean showTraversal)
+
+    private boolean isPathExistByDFS(T source, T destination, boolean showTraversal) {
+
+        if (!basicCheck(source,destination))
+            return false;
+        if (showTraversal)
+        {
+            DFSTraversal(source);
+
+        }
+        HashSet<T> visited=new HashSet<>();
+        return isPathExistByDFSUtil(source,destination,visited);
+    }
+
+    private boolean isPathExistByDFSUtil(T source, T destination, HashSet<T> visited) {
+
+        if (source==destination)
+            return true;
+        visited.add(source);
+        HashSet<T> children=map.get(source);
+        for (T child:children)
+        {
+            if (!visited.contains(child))
+
+            {
+                boolean res=isPathExistByDFSUtil(child,destination,visited);
+                if (res)
+                    return true;
+            }
+
+
+        }
+        return false;
+    }
+
+    public  boolean isPathExistBYBFS(T source,T destination,boolean showTraversal)
     {
 
 
@@ -146,7 +191,6 @@ public class Graph <T>{
 
            if (showTraversal)
            {
-               System.out.println("Showing Traversal for "+source);
                BFSTraversal(source);
 
            }
@@ -198,5 +242,29 @@ public class Graph <T>{
 
         }
         return stringBuilder.toString();
+    }
+    public void DFSTraversal(T source)
+    {
+        System.out.println("Printing DFS traversal for "+source);
+         final HashSet<T> visitedforDFS=new HashSet<>();
+         DFSTraversalUtil(source,visitedforDFS);
+        System.out.println();
+
+    }
+    public void DFSTraversalUtil(T source,HashSet<T> visited) {
+
+
+            System.out.print(" "+source+" ->");
+
+            visited.add(source);
+
+
+        HashSet<T> children=map.get(source);
+        for (T child:children)
+        {
+            if (!visited.contains(child))
+            DFSTraversalUtil(child,visited);
+        }
+
     }
 }

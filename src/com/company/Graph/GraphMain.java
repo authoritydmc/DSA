@@ -20,11 +20,14 @@ public class GraphMain {
 
         System.out.println(graph);
 
-//        graph.BFSTraversal("S");
+        graph.BFSTraversal("D");
+        graph.DFSTraversal("D");
 
-       boolean isPaththere= graph.isPathExist("R","D");
+       boolean isPaththere= graph.isPathExist("S","D");
         System.out.println("Is path Exist "+isPaththere);
 
+
+        System.out.println(graph.isPathExist("S","D",true));
 
     }
 }
