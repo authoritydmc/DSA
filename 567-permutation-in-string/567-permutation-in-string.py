@@ -54,13 +54,13 @@ class Solution:
 
 
 
-q=[["ab","eidbaooo"],["ab","eidboaoo"],["ab","a"]]
+# q=[["ab","eidbaooo"],["ab","eidboaoo"],["ab","a"]]
 
-s=Solution()
-for j in q:
-    print("*"*90)
-    print("For ",j[1])
-    print(s.checkInclusion(j[0],j[1]))
+# s=Solution()
+# for j in q:
+#     print("*"*90)
+#     print("For ",j[1])
+#     print(s.checkInclusion(j[0],j[1]))
 
 
 
