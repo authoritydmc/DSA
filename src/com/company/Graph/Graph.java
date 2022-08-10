@@ -5,6 +5,7 @@ import com.company.Main;
 import java.util.*;
 
 public class Graph <T>{
+
     private final boolean enableBiDirectionInsertion;
 
     public Graph(boolean enableBiDirectionInsertion) {
@@ -61,6 +62,7 @@ public class Graph <T>{
     public void BFSTraversal(T source)
     {
         BFSTraversal(source,false);
+
     }
     public void BFSTraversal(T source,boolean verbose)
     {
@@ -68,6 +70,7 @@ public class Graph <T>{
             BFSTraversalVerbose(source);
         else
             BFSTraversalWithoutVerbose(source);
+        System.out.println();
     }
 
     private void BFSTraversalWithoutVerbose(T source) {
@@ -128,6 +131,55 @@ public class Graph <T>{
             }
 
         }
+    }
+        public  boolean isPathExist(T source,T destination)
+        {
+            return isPathExist(source,destination,true);
+        }
+    public  boolean isPathExist(T source,T destination,boolean showTraversal)
+    {
+
+
+//        if both Vertex Exist then only we can try to check na
+           if (!basicCheck(source,destination))
+               return  false;
+
+           if (showTraversal)
+           {
+               System.out.println("Showing Traversal for "+source);
+               BFSTraversal(source);
+
+           }
+
+           Queue<T> queue=new LinkedList<>();
+           HashSet<T> visited=new HashSet<>();
+           queue.add(source);
+           while (!queue.isEmpty())
+           {
+               T curr=queue.poll();
+               visited.add(curr);
+               if (curr==destination)
+                   return true;
+
+               HashSet<T> childs=map.get(curr);
+              for (T child:childs)
+              {
+                  if (!visited.contains(child) && !queue.contains(child))
+                      queue.add(child);
+              }
+
+
+
+           }
+
+
+        return false;
+    }
+
+    private boolean basicCheck(T s,T d) {
+        if (!isVertexExist(s) || !isVertexExist(d))
+            return  false;
+        return true;
     }
 
     @Override
