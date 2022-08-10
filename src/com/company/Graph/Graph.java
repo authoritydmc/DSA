@@ -1,7 +1,5 @@
 package com.company.Graph;
 
-import com.company.Main;
-
 import java.util.*;
 
 public class Graph <T>{
@@ -14,19 +12,17 @@ public class Graph <T>{
 
     private final HashMap<T, HashSet<T>> map=new HashMap<>();
 
-    public boolean addVertex(T vertex)
+    public void addVertex(T vertex)
     {
         if (!map.containsKey(vertex))
         {
-            map.put(vertex,new HashSet<T>());
-        return  true;
+            map.put(vertex,new HashSet<>());
         }
-        return  false;
 
     }
-    public boolean addEdge(T source,T destination)
+    public void addEdge(T source,T destination)
     {
-       return addEdge(source,destination,enableBiDirectionInsertion);
+        addEdge(source,destination,enableBiDirectionInsertion);
     }
 
     public boolean isVertexExist(T vertex)
@@ -43,25 +39,23 @@ public class Graph <T>{
 
         if (!isVertexExist(source) || !isVertexExist(destination))
             return false;
-        if (!map.get(source).contains(destination))
-            return false;
-        else return true;
+        return map.get(source).contains(destination);
 
     }
-    public boolean addEdge(T source,T destination,boolean bidirection)
+    public void addEdge(T source,T destination,boolean bidirection)
     {
 //    create both vertex
         if (!isVertexExist(source))
             addVertex(source);
 
-        if (!isVertexExist(destination));
+        if (!isVertexExist(destination))
             addVertex(destination);
 
             map.get(source).add(destination);
 
             if (bidirection)
                 map.get(destination).add(source);
-        return true;
+
     }
     public void BFSTraversal(T source)
     {
@@ -151,9 +145,9 @@ public class Graph <T>{
 
         }
 
-    private boolean isPathExist_DFS(T source, T destination, boolean showTraversal) {
+    public boolean isPathExist_DFS(T source, T destination, boolean showTraversal) {
 
-        if (!basicCheck(source,destination))
+        if (!basicCheck(source, destination))
             return false;
         if (showTraversal)
         {
@@ -190,7 +184,7 @@ public class Graph <T>{
 
 
 //        if both Vertex Exist then only we can try to check na
-           if (!basicCheck(source,destination))
+           if (!basicCheck(source, destination))
                return  false;
 
            if (showTraversal)
@@ -225,9 +219,7 @@ public class Graph <T>{
     }
 
     private boolean basicCheck(T s,T d) {
-        if (!isVertexExist(s) || !isVertexExist(d))
-            return  false;
-        return true;
+        return isVertexExist(s) && isVertexExist(d);
     }
 
     @Override

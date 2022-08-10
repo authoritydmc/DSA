@@ -29,5 +29,8 @@ public class GraphMain {
 
         System.out.println(graph.isPathExist("S","D",true));
 
+//        without any extra thing printed
+        System.out.println(graph.isPathExist_DFS("S","D",false));
+
     }
 }
