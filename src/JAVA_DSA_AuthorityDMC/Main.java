@@ -1,8 +1,6 @@
-package com.company;
+package JAVA_DSA_AuthorityDMC;
 
-import java.lang.reflect.Method;
 import java.util.*;
-import java.util.stream.Stream;
 
 public class Main {
 static

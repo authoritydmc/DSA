@@ -1,4 +1,4 @@
-package com.company;
+package JAVA_DSA_AuthorityDMC;
 
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;

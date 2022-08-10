@@ -1,4 +1,4 @@
-package com.company.narryTree;
+package JAVA_DSA_AuthorityDMC.narryTree;
 
 import java.util.ArrayList;
 

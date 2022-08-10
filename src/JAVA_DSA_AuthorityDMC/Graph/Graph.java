@@ -1,4 +1,4 @@
-package com.company.Graph;
+package JAVA_DSA_AuthorityDMC.Graph;
 
 import java.util.*;
 

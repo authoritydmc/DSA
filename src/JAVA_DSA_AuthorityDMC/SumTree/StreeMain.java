@@ -1,4 +1,4 @@
-package com.company.SumTree;
+package JAVA_DSA_AuthorityDMC.SumTree;
 
 public class StreeMain {
 

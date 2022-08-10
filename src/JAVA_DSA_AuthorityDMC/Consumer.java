@@ -1,4 +1,4 @@
-package com.company;
+package JAVA_DSA_AuthorityDMC;
 
 public class Consumer implements Runnable{
 

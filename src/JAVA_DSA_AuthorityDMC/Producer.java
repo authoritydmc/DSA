@@ -1,4 +1,4 @@
-package com.company;
+package JAVA_DSA_AuthorityDMC;
 
 import java.util.Random;
 

@@ -1,9 +1,8 @@
-package com.company.SumTree;
+package JAVA_DSA_AuthorityDMC.SumTree;
 
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
-import java.util.Stack;
 
 public class SumTree {
 
