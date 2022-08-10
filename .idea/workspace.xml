@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="75e06190-a3d6-45bd-9484-ef4b2454f70c" name="Changes" comment="rebase packageName">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JAVA_DSA_AuthorityDMC/BinTreeUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JAVA_DSA_AuthorityDMC/BinaryTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JAVA_DSA_AuthorityDMC/Bucket.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JAVA_DSA_AuthorityDMC/Consumer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JAVA_DSA_AuthorityDMC/Graph/Graph.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JAVA_DSA_AuthorityDMC/Graph/GraphMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JAVA_DSA_AuthorityDMC/LockerMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JAVA_DSA_AuthorityDMC/Lockers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JAVA_DSA_AuthorityDMC/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JAVA_DSA_AuthorityDMC/Myclass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JAVA_DSA_AuthorityDMC/Node.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JAVA_DSA_AuthorityDMC/Producer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JAVA_DSA_AuthorityDMC/SumTree/Node.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JAVA_DSA_AuthorityDMC/SumTree/StreeMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JAVA_DSA_AuthorityDMC/SumTree/SumTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JAVA_DSA_AuthorityDMC/narryTree/Node.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JAVA_DSA_AuthorityDMC/narryTree/Tree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JAVA_DSA_AuthorityDMC/prodConMain.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2CtDw8FDemlBOJSzzNELpXs98SF" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="company" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="GraphMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Graph.GraphMain" />
+      <module name="DSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.Graph.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GraphMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DSA.Graph.GraphMain" />
+      <module name="DSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DSA.Graph.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DSA.Main" />
+      <module name="DSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DSA.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreeMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.SumTree.StreeMain" />
+      <module name="DSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.SumTree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.narryTree.Tree" />
+      <module name="DSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.narryTree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Tree" />
+      <item itemvalue="Application.StreeMain" />
+      <item itemvalue="Application.GraphMain" />
+      <item itemvalue="Application.Main" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.GraphMain" />
+        <item itemvalue="Application.StreeMain" />
+        <item itemvalue="Application.Tree" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="75e06190-a3d6-45bd-9484-ef4b2454f70c" name="Changes" comment="" />
+      <created>1659613223016</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1659613223016</updated>
+      <workItem from="1659613224113" duration="1124000" />
+      <workItem from="1659715468834" duration="1357000" />
+      <workItem from="1659718504508" duration="4254000" />
+      <workItem from="1659765163812" duration="1487000" />
+      <workItem from="1659773813940" duration="4901000" />
+      <workItem from="1659894745134" duration="1423000" />
+      <workItem from="1660033452686" duration="9293000" />
+      <workItem from="1660071073607" duration="1250000" />
+      <workItem from="1660133175785" duration="5437000" />
+      <workItem from="1660147412091" duration="7624000" />
+      <workItem from="1660155126693" duration="44000" />
+      <workItem from="1660155193211" duration="120000" />
+    </task>
+    <task id="LOCAL-00001" summary="Graph with BFS added">
+      <created>1660150551484</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1660150551484</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Path checking added">
+      <created>1660151473483</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1660151473483</updated>
+    </task>
+    <task id="LOCAL-00003" summary="added DFS path checking and element search">
+      <created>1660153607327</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1660153607327</updated>
+    </task>
+    <task id="LOCAL-00004" summary="some minor improvement">
+      <created>1660153892475</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1660153892475</updated>
+    </task>
+    <task id="LOCAL-00005" summary="some minor improvement">
+      <created>1660154628354</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1660154628354</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add gitignore">
+      <created>1660154801741</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1660154801741</updated>
+    </task>
+    <task id="LOCAL-00007" summary="rebase packageName">
+      <created>1660154970890</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1660154970890</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Graph with BFS added" />
+    <MESSAGE value="Path checking added" />
+    <MESSAGE value="added DFS path checking and element search" />
+    <MESSAGE value="some minor improvement" />
+    <MESSAGE value="add gitignore" />
+    <MESSAGE value="rebase packageName" />
+    <option name="LAST_COMMIT_MESSAGE" value="rebase packageName" />
+  </component>
+</project>
