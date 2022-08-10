@@ -33,6 +33,10 @@ public class Graph <T>{
     {
         return map.containsKey(vertex);
     }
+    public boolean isElementExist(T element)
+    {
+        return isVertexExist(element);
+    }
 
     public boolean isEdgeExist(T source,T destination)
     {
@@ -141,13 +145,13 @@ public class Graph <T>{
         {
             System.out.println("Checking path Existence between " +source+" to "+destination);
             if (byDFS)
-                return isPathExistByDFS(source,destination,true);
+                return isPathExist_DFS(source,destination,true);
                 else
-            return isPathExistBYBFS(source,destination,true);
+            return isPathExist_BFS(source,destination,true);
 
         }
 
-    private boolean isPathExistByDFS(T source, T destination, boolean showTraversal) {
+    private boolean isPathExist_DFS(T source, T destination, boolean showTraversal) {
 
         if (!basicCheck(source,destination))
             return false;
@@ -181,7 +185,7 @@ public class Graph <T>{
         return false;
     }
 
-    public  boolean isPathExistBYBFS(T source,T destination,boolean showTraversal)
+    public  boolean isPathExist_BFS(T source,T destination,boolean showTraversal)
     {
 
 
