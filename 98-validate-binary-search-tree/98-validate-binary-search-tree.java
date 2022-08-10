@@ -29,8 +29,9 @@ class Solution {
     TreeNode prev=null;
     private boolean isValidScnd(TreeNode node)
     {
-     if (node!=null)
-     {
+     
+     if (node==null )
+         return true;
          
          if(!isValidScnd(node.left))
              return false;
@@ -40,8 +41,8 @@ class Solution {
          
          return isValidScnd(node.right);
          
-     }
-        return true;
+     
+        
     }
     public boolean isValidBST(TreeNode root) {
         
