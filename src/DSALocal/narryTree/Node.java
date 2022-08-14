@@ -2,39 +2,39 @@ package DSA.narryTree;
 
 import java.util.ArrayList;
 //@Author :Raj Dubey
-public class Node {
+public class Node <T>{
 //ID  needed
-    int id;
+    T id;
     boolean isLocked;
 //    store parent Id needed while insertion
     Node parent;
     int lockCount;
     ArrayList<Node> children=new ArrayList<>();
 //    id of user who locks andd unlocks it
-    int uid=Node.getDefaultUID();
+    String uid=Node.getDefaultUID();
 
-    public Node(int id) {
+    public Node(T id) {
         this.id = id;
     }
 
     public Node() {
     }
 
-    public Node(int id, Node parent) {
+    public Node(T id, Node parent) {
         this.id = id;
         this.parent = parent;
     }
 
-    public Node(int id, ArrayList<Node> children) {
+    public Node(T id, ArrayList<Node> children) {
         this.id = id;
         this.children = children;
     }
 
-    public int getId() {
+    public T getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(T id) {
         this.id = id;
     }
 
@@ -70,17 +70,18 @@ public class Node {
         this.children = children;
     }
 
-    public int getUid() {
+    public String getUid() {
         return uid;
     }
 
-    public void setUid(int uid) {
+    public void setUid(String uid) {
         this.uid = uid;
     }
 
-    public static int getDefaultUID()
+    public static String  getDefaultUID()
     {
-        return Integer.MIN_VALUE;
+        return "NA";
+
     }
 
     @Override

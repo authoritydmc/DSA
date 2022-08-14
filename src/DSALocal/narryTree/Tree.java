@@ -6,25 +6,30 @@ import java.util.concurrent.LinkedBlockingDeque;
 
 //@Author :Raj Dubey
 
-public class Tree {
+public class Tree<T> {
 
-    private final Node root;
+    private final Node <T> root;
     //not recommended to use directly
-    public Tree(Node root) {
+    public Tree(Node <T> root) {
         this.root=root;
     }
-    public static Tree getTreeInstance()
+
+    public Node<T> getRoot() {
+        return root;
+    }
+
+    public  static  <T> Tree getTreeInstance(T rootId)
     {
-        Node rootCr=new Node();
-        rootCr.id=-1;
+        Node <T> rootCr=new Node();
+        rootCr.id=rootId;
         rootCr.isLocked=false;
         rootCr.parent=null;
       Tree tree= new Tree(rootCr);
       return tree;
     }
-    public boolean lock(int id,int uid)
+    public boolean lock(T id,String uid)
     {
-        System.out.println("locking Id with "+id+"with uid "+uid);
+        System.out.println("locking Id with "+id+" with uid "+uid);
 //        Rules for locking
 //        A vertex cannot be locked if it has any locked ancestors or descendants, by any ID.
         Node node=findNode(id);
@@ -58,17 +63,12 @@ public class Tree {
         node.setLocked(true);
         node.uid=uid;
 //        increase parents lock counts;
-        temp=node.parent;
-        while (temp!=null)
-        {
-            temp.lockCount+=1;
-            temp=temp.parent;
-        }
+      updateParentsCount(node,1);
         System.out.println("successfully locked the node"+node+" and updated parents lock count");
         return  true;
     }
 
-    public boolean unlock(int id,int uid)
+    public boolean unlock(T id,String uid)
     {
 
 //        An unlock operation is only possible if the vertex is already locked and locked by the same id
@@ -84,20 +84,14 @@ public class Tree {
             System.out.println("This node is not locked returning");
             return false;
         }
-    if (node.uid!=uid)
+    if (!node.uid.equals(uid))
     {
         System.out.println("This node is locked by "+node.uid +" so cant unlock by "+uid);
         return false;
     }
 //    all condition check done
 //        now decease parents lock count
-        Node temp=node.parent;;
-        while (temp!=null)
-        {
-            temp.lockCount-=1;
-            temp=temp.parent;
-
-        }
+            decreaseParentsCounter(node,1);
 //        now unllock it
 
         node.setLocked(false);
@@ -106,7 +100,18 @@ public class Tree {
         System.out.println("Successfully unlocked "+node);
         return true;
     }
-    public boolean upgrade(int id,int uid)
+
+    private void decreaseParentsCounter(Node node, int decreaseCounter) {
+        Node temp=node.parent;;
+        while (temp!=null)
+        {
+            temp.lockCount-=decreaseCounter;
+            temp=temp.parent;
+
+        }
+    }
+
+    public boolean upgrade(T id,String uid)
     {
         //        When a vertex is upgraded, it's locked descendants are automatically unlocked.
 //        An upgrade operation is not possible if the vertex is already locked or has any locked ancestors
@@ -143,13 +148,13 @@ public class Tree {
         queue.add(node);
         while (!queue.isEmpty())
         {
-            Node itr=queue.poll();
+            Node<T> itr=queue.poll();
             if (itr.isLocked)
             System.out.println("Unlocking node "+itr+" to upgrade lock to "+node);
             itr.lockCount=0;
             itr.uid=Node.getDefaultUID();
             itr.isLocked=false;
-            for (Node child: itr.children)
+            for (Node <T>child: itr.children)
             {
 
                 queue.add(child);
@@ -160,17 +165,33 @@ public class Tree {
         node.uid=uid;
         System.out.println("Successfully upgraded lock to "+node);
 
+//        updateParents
+        updateParentsCount(node,1);
         return true;
     }
 
-    public void addNode(int id,int childId)
+    private void updateParentsCount(Node node,int increaseCounter) {
+       Node temp=node.parent;
+        while (temp!=null)
+        {
+            temp.lockCount+=1;
+            temp=temp.parent;
+        }
+    }
+
+    public void addNode(T id,T childId)
     {
 //        use it to add a node to a node's children for this first find the node
+        if (id.getClass()!=root.id.getClass() || childId.getClass()!=root.id.getClass() )
+        {
+            System.out.println("Cant add not matching type id " +(id.getClass())+ " "+root.id.getClass() );
+            return;
+
+        }
         Node node=findNode(id);
         if (node==null)
         {
             System.out.println("No node exist with ID "+id);
-
         }
         else
         {
@@ -185,18 +206,18 @@ public class Tree {
 
     }
 
-    public Node findNode(int id)
+    public Node findNode(T id)
     {
         Queue<Node> queue=new LinkedBlockingDeque<>();
         queue.offer(root);
         while (!queue.isEmpty())
         {
-            Node temp=queue.poll();
+            Node <T>temp=queue.poll();
              if (temp.id==id)
              {
                  return temp;
              }
-             for (Node child:temp.children)
+             for (Node <T> child:temp.children)
                     queue.add(child);
 
         }
@@ -210,7 +231,7 @@ public class Tree {
         queue.offer(seperator);
         while (!queue.isEmpty())
         {
-            Node temp=queue.poll();
+            Node <T> temp=queue.poll();
             if (temp==seperator)
             {
                 System.out.println("\nendl");
@@ -219,7 +240,7 @@ public class Tree {
             }else
             {
                 System.out.println(temp);
-                for (Node child:temp.children)
+                for (Node <T> child:temp.children)
                     queue.add(child);
             }
         }
@@ -229,12 +250,12 @@ public class Tree {
         System.out.println("Requesting preorder traversal ");
         preOrderRec(root);
     }
-    private void preOrderRec(Node root)
+    private void preOrderRec(Node<T> root)
     {
         if (root==null)
             return;
         System.out.print(root+"->");
-        for (Node child:root.children)
+        for (Node <T>child:root.children)
         {
             preOrderRec(child);
         }
