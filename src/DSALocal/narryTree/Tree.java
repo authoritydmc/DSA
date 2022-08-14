@@ -63,7 +63,7 @@ public class Tree<T> {
         node.setLocked(true);
         node.uid=uid;
 //        increase parents lock counts;
-      updateParentsCount(node,1);
+      updateParentsCount(node);
         System.out.println("successfully locked the node"+node+" and updated parents lock count");
         return  true;
     }
@@ -102,6 +102,8 @@ public class Tree<T> {
     }
 
     private void decreaseParentsCounter(Node node, int decreaseCounter) {
+        if (decreaseCounter==0)
+            return;
         Node temp=node.parent;;
         while (temp!=null)
         {
@@ -115,16 +117,16 @@ public class Tree<T> {
     {
         //        When a vertex is upgraded, it's locked descendants are automatically unlocked.
 //        An upgrade operation is not possible if the vertex is already locked or has any locked ancestors
-
         Node node=findNode(id);
         if (node==null)
         {
             System.out.println("cant find node ");
             return false;
         }
+        System.out.println("Upgrading locks to "+node);
         if (node.isLocked())
         {
-            System.out.println("Cant upgrade its already locked ");
+            System.out.println("Cant upgrade "+node+" its already locked ");
             return false;
 
         }
@@ -143,7 +145,7 @@ public class Tree<T> {
 //        now upgrade process starts
 
 //        now unlock all its childs ;
-
+        int PREV_LOCK_COUNT=node.lockCount;
         Queue<Node> queue=new LinkedList<>();
         queue.add(node);
         while (!queue.isEmpty())
@@ -160,17 +162,32 @@ public class Tree<T> {
                 queue.add(child);
             }
         }
+
+
+//        updateParents
+        System.out.println("Previously "+node+" had "+PREV_LOCK_COUNT+" locks so at root total locks="+root);
+        if (PREV_LOCK_COUNT<1)
+        {
+            updateParentsCount(node);
+        }else if (PREV_LOCK_COUNT==1)
+        {
+            //nothing to do as removing and updating single lock count does nothing
+        }else
+        {
+            decreaseParentsCounter(node,PREV_LOCK_COUNT-1);
+//            decrease prev lock count-1 { as 1 will be added }
+        }
+        System.out.println("After updating parents lock count root="+root);
+
+//now lock it
         node.lockCount=0;
         node.setLocked(true);
         node.uid=uid;
         System.out.println("Successfully upgraded lock to "+node);
-
-//        updateParents
-        updateParentsCount(node,1);
         return true;
     }
 
-    private void updateParentsCount(Node node,int increaseCounter) {
+    private void updateParentsCount(Node node) {
        Node temp=node.parent;
         while (temp!=null)
         {

@@ -3,14 +3,14 @@ package DSA.narryTree;
 public class TreeMainer {
     public static void main(String[] args) {
 
+        String rootNodeId="INDIA";
+         Tree tree=Tree.getTreeInstance(rootNodeId);
 
-         Tree tree=Tree.getTreeInstance("ROOTGROOT");
-            Node<String> rootNode=tree.getRoot();
 
 
-            tree.addNode(rootNode.id,"5");
-            tree.addNode(rootNode.id,"10");
-            tree.addNode(rootNode.id,"15");
+            tree.addNode(rootNodeId,"5");
+            tree.addNode(rootNodeId,"10");
+            tree.addNode(rootNodeId,"15");
             tree.addNode("10","101");
             tree.addNode("10","102");
             tree.addNode("101","00254");
@@ -23,8 +23,9 @@ public class TreeMainer {
 
             tree.levelOrder();
 //            locking check
-            tree.lock("10","901");
+//            tree.lock("10","901");
             tree.lock("102","902");
+            tree.lock("101","KILLER");
             tree.lock("15","900");
             tree.lock("567","444");
         System.out.println("After Locking Traversal");
@@ -39,9 +40,9 @@ public class TreeMainer {
 //        System.out.println("After unLocking Traversal");
 //        tree.levelOrder();
 
-        System.out.println("After upgrading lock ");
-        tree.upgrade("10","1001");
-
+        System.out.println(" upgrading lock ");
+        tree.upgrade("10","SUPERVILLAIN");
+        System.out.println("After upgrading lock traversal");
         tree.levelOrder();
 
 
