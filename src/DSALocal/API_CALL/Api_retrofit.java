@@ -5,6 +5,7 @@ import retrofit2.Response;
 import retrofit2.Retrofit;
 
 import java.io.IOException;
+import java.util.Optional;
 
 public class Api_retrofit {
 
@@ -12,7 +13,7 @@ public class Api_retrofit {
         Retrofit client=RetrofitClient.getClient();
 
         serviceCalls serviceCalls= client.create(DSA.API_CALL.serviceCalls.class);
-      Response<userResponse> userResponse=  serviceCalls.getUser().execute();
+      Response<userResponse> userResponse=  serviceCalls.getUser(null).execute();
         Response<BookReponse> bookReponse=  serviceCalls.getBooks().execute();
 
 
