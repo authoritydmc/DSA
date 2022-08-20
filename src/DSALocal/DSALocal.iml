@@ -7,5 +7,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="squareup.retrofit2.retrofit" level="project" />
+    <orderEntry type="library" name="squareup.retrofit2.converter.gson" level="project" />
   </component>
 </module>

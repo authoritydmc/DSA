@@ -3,13 +3,17 @@ package DSA.Heap;
 import java.util.LinkedList;
 import java.util.Queue;
 
+//Min Heap implementation
+//for max heap we need to fix heapify method
+
 public class Heap {
 
     private heapNode root;
+//    queue to maintain insertion order
     private Queue<heapNode> queue=new LinkedList<>();
     public void insert(int data)
     {
-//        insert it
+//        insert on root if its empty
         if (root==null)
         {
             root=new heapNode(data);
@@ -18,24 +22,31 @@ public class Heap {
         }
         else
         {
+//            now root is not empty
+//            peek where to insert
             heapNode nodeToInsrt=queue.peek();
+//            its left is null ? if yes then insert here
             if (nodeToInsrt.left==null)
             {
                 nodeToInsrt.left=new heapNode(data,nodeToInsrt);
                 heapify(nodeToInsrt.left);
 
 
-            }else if (nodeToInsrt.right==null)
+            }
+//            its right is null ? then insert here
+            else if (nodeToInsrt.right==null)
             {
                 nodeToInsrt.right=new heapNode(data,nodeToInsrt);
                 heapify(nodeToInsrt.right);
 
             }
+//            as we have inserted in both the child i.e left and right , we need to remove it and add its child to queue
             else
             {
               heapNode node=  queue.poll();
                 queue.offer(node.left);
                 queue.offer(node.right);
+                //also we need to insert na so we have to call the method once again
                 insert(data);
             }
 
@@ -43,13 +54,17 @@ public class Heap {
 
     }
 
+//    return top min value
     public int peekMin()
     {
         return root.val;
     }
+
+
     private void heapify(heapNode node)
     {
 //        heapify it
+//        logic is simple we swap value till we reach root
 
         heapNode temp=node;
         while (temp!=null && temp.parent!=null)
@@ -65,6 +80,7 @@ public class Heap {
             }
         }
     }
+
     public int extract_min()
     {
         int temp= root.val;
@@ -72,11 +88,7 @@ public class Heap {
 
         return temp;
     }
-    public void printQueue()
-    {
-        for (heapNode node:queue)
-            System.out.println(node);
-    }
+
     public void print()
     {
 

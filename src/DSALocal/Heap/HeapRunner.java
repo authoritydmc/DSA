@@ -16,10 +16,7 @@ public class HeapRunner {
 
 
 
-        heap.printQueue();
-//        System.out.println(heap.peekMin());
         heap.print();
-//        heap.inOrder();
         System.out.println("Minimum is "+heap.peekMin());
     }
 }
