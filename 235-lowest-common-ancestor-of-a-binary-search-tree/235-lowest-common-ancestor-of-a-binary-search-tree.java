@@ -17,16 +17,17 @@ class Solution {
             return root;
         Queue<TreeNode> queue=new LinkedList<>();
         queue.offer(root);
-        
+        int minVal=0,bigVal=0;
         while(!queue.isEmpty()){
             
             TreeNode cur=queue.poll();
+            minVal=Math.min(p.val,q.val); 
+            bigVal=Math.max(p.val,q.val);
 // condition check 
 //             1.  if values are left and right of cur node obviosly cur node is answer
-            if(p.val<q.val && p.val<cur.val && q.val> cur.val)
+            if(minVal<cur.val && cur.val<bigVal)
                 return cur;
-            if(q.val<p.val && q.val<cur.val && p.val> cur.val)
-                return cur;
+
 //             now mark current node as parent 
             
 
@@ -36,8 +37,8 @@ class Solution {
                 return cur;
             
 //             now we have decide which child value to traverse i.e whether to go left or right based on p and q as they both occur in same side 
-             int m=Math.min(p.val,q.val); 
-            if(m<cur.val)
+             
+            if(minVal<cur.val)
                 queue.add(cur.left);
             else
                 queue.add(cur.right);
