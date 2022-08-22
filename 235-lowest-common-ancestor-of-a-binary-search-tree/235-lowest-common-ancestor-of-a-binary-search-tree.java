@@ -16,7 +16,6 @@ class Solution {
         if(p==root || q==root)
             return root;
         Queue<TreeNode> queue=new LinkedList<>();
-        TreeNode parent=root;
         queue.offer(root);
         
         while(!queue.isEmpty()){
@@ -30,10 +29,13 @@ class Solution {
                 return cur;
 //             now mark current node as parent 
             
-            parent=cur;
-//             if any matching node occured its answer ;;;;
+
+//             if any matching node occured it is answer as we are basically one way traversing , either left child of node or right child of node
+            
             if(cur==p || cur==q)
                 return cur;
+            
+//             now we have decide which child value to traverse i.e whether to go left or right based on p and q as they both occur in same side 
              int m=Math.min(p.val,q.val); 
             if(m<cur.val)
                 queue.add(cur.left);
@@ -42,7 +44,7 @@ class Solution {
             
 
         }
-        return parent;
+        return null;
         
         
     }
