@@ -22,15 +22,18 @@ class Solution {
         while(!queue.isEmpty()){
             
             TreeNode cur=queue.poll();
-
+// condition check 
+//             1.  if values are left and right of cur node obviosly cur node is answer
             if(p.val<q.val && p.val<cur.val && q.val> cur.val)
                 return cur;
             if(q.val<p.val && q.val<cur.val && p.val> cur.val)
                 return cur;
+//             now mark current node as parent 
             
             parent=cur;
-if(cur==p || cur==q)
-                return parent;
+//             if any matching node occured its answer ;;;;
+            if(cur==p || cur==q)
+                return cur;
              int m=Math.min(p.val,q.val); 
             if(m<cur.val)
                 queue.add(cur.left);
