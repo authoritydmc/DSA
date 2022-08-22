@@ -27,8 +27,6 @@ class Solution {
             if(minVal<cur.val && cur.val<bigVal)
                 return cur;
 
-//             now mark current node as parent 
-            
 
 //             if any matching node occured it is answer as we are basically one way traversing , either left child of node or right child of node
             
