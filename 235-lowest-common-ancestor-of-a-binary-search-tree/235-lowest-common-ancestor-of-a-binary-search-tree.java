@@ -17,12 +17,11 @@ class Solution {
             return root;
         Queue<TreeNode> queue=new LinkedList<>();
         queue.offer(root);
-        int minVal=0,bigVal=0;
+        int minVal=Math.min(p.val,q.val);
+        int bigVal=Math.max(p.val,q.val);
         while(!queue.isEmpty()){
             
             TreeNode cur=queue.poll();
-            minVal=Math.min(p.val,q.val); 
-            bigVal=Math.max(p.val,q.val);
 // condition check 
 //             1.  if values are left and right of cur node obviosly cur node is answer
             if(minVal<cur.val && cur.val<bigVal)
