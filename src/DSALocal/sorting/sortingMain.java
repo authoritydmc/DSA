@@ -9,8 +9,8 @@ public class sortingMain {
 
        int [] res= new bubbleSort().sort(arr.clone());
 
-       new selectionSort().sort(arr.clone());
-       new mergeSort().sort(arr.clone());
+      int [] res1= new selectionSort().sort(arr.clone());
+      int [] res2= new mergeSort().sort(arr.clone());
 
     }
 

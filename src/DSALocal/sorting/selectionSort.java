@@ -1,7 +1,7 @@
 package DSA.sorting;
 
 public class selectionSort {
-    public void sort(int [] arr)
+    public int []  sort(int [] arr)
     {
         System.out.println("Selection Sort Starting");
         System.out.println("Before sorting ");
@@ -23,5 +23,6 @@ public class selectionSort {
 
         System.out.println("After sorting final ");
         sortingMain.printSorted(arr);
+        return arr;
     }
 }

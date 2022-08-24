@@ -2,7 +2,7 @@ package DSA.sorting;
 
 public class mergeSort {
 
-    public void sort(int [] arr)
+    public int []  sort(int [] arr)
     {
         System.out.println("Starting merge Sort");
         mergeSortHelper(arr,0,arr.length-1);
@@ -10,6 +10,7 @@ public class mergeSort {
 //        sort1(arr,0,arr.length-1);
         System.out.println("Printing sorted array");
         sortingMain.printSorted(arr);
+        return arr;
     }
 
     private void mergeSortHelper(int[] arr, int low, int high) {
