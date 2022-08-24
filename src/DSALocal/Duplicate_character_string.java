@@ -1,17 +1,14 @@
 package DSA;
 
 import java.nio.charset.StandardCharsets;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 public class Duplicate_character_string {
     public static void main(String[] args) {
         String s="Alpha-Beta-GAmma Boys";
-
+        ArrayList<Integer> ars=new ArrayList<>();
         Map< Character, Long > result = s
                 .chars().mapToObj(c -> (char) c)
                 .collect(Collectors.groupingBy(c -> c, Collectors.counting()));

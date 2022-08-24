@@ -32,13 +32,15 @@ public class TreeMainer {
         tree.levelOrder();
 //        now some unlocsk
 
-//        tree.unlock(567,123);
-//        tree.unlock(10,901);
-//        tree.unlock(-1,452);
-//        tree.unlock(567,444);
-//
-//        System.out.println("After unLocking Traversal");
-//        tree.levelOrder();
+        tree.unlock("567","123");
+        tree.unlock("10","901");
+        tree.unlock("1","452");
+        tree.unlock("567","444");
+        tree.unlock("15","900");
+
+
+        System.out.println("After unLocking Traversal");
+        tree.levelOrder();
 
         System.out.println(" upgrading lock ");
         tree.upgrade("10","SUPERVILLAIN");

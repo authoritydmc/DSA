@@ -81,7 +81,7 @@ public class Tree<T> {
         }
         if (!node.isLocked())
         {
-            System.out.println("This node is not locked returning");
+            System.out.println(node+" node is not locked returning");
             return false;
         }
     if (!node.uid.equals(uid))
@@ -130,6 +130,8 @@ public class Tree<T> {
             return false;
 
         }
+//        can also check descendents if required ....
+
 
 //        now check for ancestors.
         Node temp=node.parent;
