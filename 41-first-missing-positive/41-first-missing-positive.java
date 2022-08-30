@@ -3,14 +3,13 @@ class Solution {
         
         HashSet<Integer> set=new HashSet<>();
         int max=Integer.MIN_VALUE;
-        int min=Integer.MAX_VALUE;
+
         for(int num:nums)
         {
             set.add(num);
             if(num>max)
                 max=num;
-            if(num<min)
-                min=num;
+
         }
         System.out.println(set);
        
