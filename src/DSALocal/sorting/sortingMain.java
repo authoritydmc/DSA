@@ -12,10 +12,14 @@ public class sortingMain {
       int [] res1= new selectionSort().sort(arr.clone());
       int [] res2= new mergeSort().sort(arr.clone());
 
+      int [] res3=new cyclicSort().sort(new int [] { 3,1,2,7,5,6,4});
+
     }
 
     public static void printSorted(int [] arr)
     {
+        System.out.println();
+        System.out.println("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++=");
         Arrays.stream(arr).forEach(x-> System.out.print(x+" , "));
         System.out.println("Done !!!");
     }

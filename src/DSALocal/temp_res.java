@@ -15,8 +15,6 @@ public class temp_res {
 
     public static void main(String[] args) {
 
-
-
     var s="waterbottle";
     var t="erbottlewat";
     StringBuilder ans=new StringBuilder();
