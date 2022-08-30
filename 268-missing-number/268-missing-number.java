@@ -13,6 +13,8 @@ class Solution {
             {
 //                yes its correct index ,check next
                i++;
+                if(i==nums.length &&correctIndex==-1)
+                    return i;
             }else
             {
 //                swap the number with correct Index
