@@ -1,5 +1,6 @@
 package DSA;
 
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Locale;
 import java.util.Map;
@@ -14,6 +15,10 @@ public class temp_res {
     }
 
     public static void main(String[] args) {
+
+        String [] r12=new String[]{"Raj","ar"," great"};
+        System.out.println( Arrays.stream(r12).reduce((x,res)->x+","+res).get());
+
 
     var s="waterbottle";
     var t="erbottlewat";
