@@ -48,11 +48,12 @@ public class GraphMain {
         System.out.println("Now checking for topsort");
 
         Graph<Integer> gg=new Graph<>(false);
-        gg.addEdge(5,0);
+//https://practice.geeksforgeeks.org/problems/topological-sort/1 q2
         gg.addEdge(4,0);
+        gg.addEdge(5,0);
         gg.addEdge(5,2);
         gg.addEdge(2,3);
-        gg.addEdge(3,1);
+        gg.addEdge(1,3);
         gg.addEdge(4,1);
 
         gg.topoLogicalTraversal();
