@@ -11,6 +11,7 @@ public class Graph <T>{
     }
 
     private final HashMap<T, HashSet<T>> map=new HashMap<>();
+    private final HashMap<String,Integer> weightMap=new HashMap<>();
 
     public void addVertex(T vertex)
     {
@@ -20,9 +21,20 @@ public class Graph <T>{
         }
 
     }
+    public void addEdge(T source,T destination,int weight)
+    {
+//        used in case of directed Graph with weight
+        addEdge(source,destination,weight,enableBiDirectionInsertion);
+
+
+    }
+    public void addEdge(T source,T destination,boolean isBidrectional)
+    {
+        addEdge(source,destination,1,isBidrectional);
+    }
     public void addEdge(T source,T destination)
     {
-        addEdge(source,destination,enableBiDirectionInsertion);
+        addEdge(source,destination,1,enableBiDirectionInsertion);
     }
 
     public boolean isVertexExist(T vertex)
@@ -42,7 +54,7 @@ public class Graph <T>{
         return map.get(source).contains(destination);
 
     }
-    public void addEdge(T source,T destination,boolean bidirection)
+    private void addEdge(T source,T destination,int weight,boolean bidirection)
     {
 //    create both vertex
         if (!isVertexExist(source))
@@ -56,6 +68,9 @@ public class Graph <T>{
             if (bidirection)
                 map.get(destination).add(source);
 
+
+            String key=source+"$$"+destination;
+            weightMap.put(key,weight);
     }
     public void BFSTraversal(T source)
     {
@@ -261,6 +276,47 @@ public class Graph <T>{
             if (!visited.contains(child))
             DFSTraversalUtil(child,visited);
         }
+
+    }
+
+    public void topoLogicalTraversal()
+    {
+
+//        for topological sort you need a Stack too
+
+        Stack <T> topSort=new Stack<>();
+        HashSet<T> visited=new HashSet<>();
+        for(T vertex:map.keySet())
+        {
+            if (!visited.contains(vertex))
+            {
+                visited.add(vertex);
+                topSortUtil(vertex,visited,topSort);
+            }
+
+
+        }
+// now just pop and print
+
+
+        while (!topSort.isEmpty())
+        {
+            System.out.println(topSort.pop());
+        }
+ }
+
+    private void topSortUtil(T source,HashSet<T> visited,Stack<T> topSortStack) {
+
+        if (source==null)
+            return;
+
+        for (T child:map.get(source))
+        if (!visited.contains(child))
+        {
+            visited.add(child);
+            topSortUtil(child,visited,topSortStack);
+        }
+        topSortStack.add(source);
 
     }
 }

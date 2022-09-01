@@ -32,5 +32,30 @@ public class GraphMain {
 //        without any extra thing printed
         System.out.println(graph.isPathExist_DFS("S","D",false));
 
+
+//        new Graph
+
+        Graph<String> ng=new Graph<>(false);
+        ng.addEdge("A","G");
+        ng.addEdge("G","Z");
+        ng.addEdge("A","Z");
+        ng.addEdge("Z","D");
+        ng.addEdge("G","D");
+
+        ng.BFSTraversal("A");
+        ng.topoLogicalTraversal();
+
+        System.out.println("Now checking for topsort");
+
+        Graph<Integer> gg=new Graph<>(false);
+        gg.addEdge(5,0);
+        gg.addEdge(4,0);
+        gg.addEdge(5,2);
+        gg.addEdge(2,3);
+        gg.addEdge(3,1);
+        gg.addEdge(4,1);
+
+        gg.topoLogicalTraversal();
+
     }
 }
