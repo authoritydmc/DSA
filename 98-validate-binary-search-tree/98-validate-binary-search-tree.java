@@ -14,40 +14,20 @@
  * }
  */
 class Solution {
-    
-    private boolean isValidBSTRec(TreeNode node,int minRange,int maxRange)
+    private boolean validate(TreeNode node,Long min,Long max)
     {
-       if (node == null)
-        return true;
-   
-        if (node.val<=minRange || node.val>=maxRange)
+     if(node==null)
+         return true;
+        if(node.val>=max)
+            return false;
+        if(node.val<=min)
             return false;
         
-        return (isValidBSTRec(node.left,minRange,node.val) && isValidBSTRec(node.right,node.val,maxRange));
-        
-    }
-    TreeNode prev=null;
-    private boolean isValidScnd(TreeNode node)
-    {
-     
-     if (node==null )
-         return true;
+        return validate(node.left,min,Long.valueOf(node.val))&&validate(node.right,Long.valueOf(node.val),max);
          
-         if(!isValidScnd(node.left))
-             return false;
-         if(prev!=null && node.val<=prev.val)
-             return false;
-         prev=node;
-         
-         return isValidScnd(node.right);
-         
-     
-        
     }
     public boolean isValidBST(TreeNode root) {
         
-        // return isValidBSTRec(root,Integer.MIN_VALUE,Integer.MAX_VALUE);
-        return isValidScnd(root);
-        
+        return validate(root,Long.MIN_VALUE,Long.MAX_VALUE);
     }
 }
