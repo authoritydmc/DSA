@@ -13,6 +13,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0058-length-of-last-word](https://github.com/authoritydmc/DSA/tree/master/0058-length-of-last-word) |
 | [0345-reverse-vowels-of-a-string](https://github.com/authoritydmc/DSA/tree/master/0345-reverse-vowels-of-a-string) |
+| [0387-first-unique-character-in-a-string](https://github.com/authoritydmc/DSA/tree/master/0387-first-unique-character-in-a-string) |
 | [0829-subdomain-visit-count](https://github.com/authoritydmc/DSA/tree/master/0829-subdomain-visit-count) |
 | [0965-unique-email-addresses](https://github.com/authoritydmc/DSA/tree/master/0965-unique-email-addresses) |
 | [1146-greatest-common-divisor-of-strings](https://github.com/authoritydmc/DSA/tree/master/1146-greatest-common-divisor-of-strings) |
@@ -31,11 +32,13 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Hash Table
 |  |
 | ------- |
+| [0387-first-unique-character-in-a-string](https://github.com/authoritydmc/DSA/tree/master/0387-first-unique-character-in-a-string) |
 | [0829-subdomain-visit-count](https://github.com/authoritydmc/DSA/tree/master/0829-subdomain-visit-count) |
 | [0965-unique-email-addresses](https://github.com/authoritydmc/DSA/tree/master/0965-unique-email-addresses) |
 ## Counting
 |  |
 | ------- |
+| [0387-first-unique-character-in-a-string](https://github.com/authoritydmc/DSA/tree/master/0387-first-unique-character-in-a-string) |
 | [0829-subdomain-visit-count](https://github.com/authoritydmc/DSA/tree/master/0829-subdomain-visit-count) |
 ## Dynamic Programming
 |  |
@@ -45,4 +48,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1146-greatest-common-divisor-of-strings](https://github.com/authoritydmc/DSA/tree/master/1146-greatest-common-divisor-of-strings) |
+## Queue
+|  |
+| ------- |
+| [0387-first-unique-character-in-a-string](https://github.com/authoritydmc/DSA/tree/master/0387-first-unique-character-in-a-string) |
 <!---LeetCode Topics End-->
