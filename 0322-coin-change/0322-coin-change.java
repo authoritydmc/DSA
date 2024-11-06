@@ -26,6 +26,7 @@ class Solution {
     {
         //memo which will hold the result at each steps
         int [] memo=new int [amount+1];
+        // initialize with something > amount as its possible to use coins > amount ,as even ig you use 1 unit of coins max coins required for amount = 1*amount not >amount coins 
         Arrays.fill(memo,amount+20);
         memo[0]=0;
         for (int i=1;i<=amount;i++)
