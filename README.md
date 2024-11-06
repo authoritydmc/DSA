@@ -7,6 +7,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0027-remove-element](https://github.com/authoritydmc/DSA/tree/master/0027-remove-element) |
+| [0080-remove-duplicates-from-sorted-array-ii](https://github.com/authoritydmc/DSA/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0345-reverse-vowels-of-a-string](https://github.com/authoritydmc/DSA/tree/master/0345-reverse-vowels-of-a-string) |
 | [1894-merge-strings-alternately](https://github.com/authoritydmc/DSA/tree/master/1894-merge-strings-alternately) |
 ## String
@@ -26,6 +27,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0027-remove-element](https://github.com/authoritydmc/DSA/tree/master/0027-remove-element) |
+| [0080-remove-duplicates-from-sorted-array-ii](https://github.com/authoritydmc/DSA/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/authoritydmc/DSA/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0198-house-robber](https://github.com/authoritydmc/DSA/tree/master/0198-house-robber) |
 | [0322-coin-change](https://github.com/authoritydmc/DSA/tree/master/0322-coin-change) |
