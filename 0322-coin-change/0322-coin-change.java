@@ -22,12 +22,34 @@ class Solution {
         dp.put(target, minCoins);
         return minCoins;
     }
+    private int solveBottomUp(int [] coins,int amount)
+    {
+        //memo which will hold the result at each steps
+        int [] memo=new int [amount+1];
+        Arrays.fill(memo,amount+20);
+        memo[0]=0;
+        for (int i=1;i<=amount;i++)
+        {
+            for(int coin:coins)
+            {
+                if (coin<=i)
+                {
+                  
+            memo[i]=Math.min(memo[i],memo[i-coin]+1);
+
+                }
+            }
+        }
+        return memo[amount]>amount?-1:memo[amount];
+    }
 
     public int coinChange(int[] coins, int amount) {
-        Map<Integer, Integer> dp = new HashMap<>();
-        int ans = solve(coins, amount, dp);
-        if(ans==Integer.MAX_VALUE)
-        return -1;
-        return ans;
+        // Map<Integer, Integer> dp = new HashMap<>();
+        // int ans = solve(coins, amount, dp);
+        // if(ans==Integer.MAX_VALUE)
+        // return -1;
+        // return ans;
+
+        return solveBottomUp(coins,amount);
     }
 }
