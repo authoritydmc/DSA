@@ -122,4 +122,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0141-linked-list-cycle](https://github.com/authoritydmc/DSA/tree/master/0141-linked-list-cycle) |
+## Database
+|  |
+| ------- |
+| [2495-number-of-unique-subjects-taught-by-each-teacher](https://github.com/authoritydmc/DSA/tree/master/2495-number-of-unique-subjects-taught-by-each-teacher) |
 <!---LeetCode Topics End-->
