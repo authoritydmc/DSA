@@ -46,6 +46,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0837-most-common-word](https://github.com/authoritydmc/DSA/tree/master/0837-most-common-word) |
 | [0965-unique-email-addresses](https://github.com/authoritydmc/DSA/tree/master/0965-unique-email-addresses) |
 | [1528-kids-with-the-greatest-number-of-candies](https://github.com/authoritydmc/DSA/tree/master/1528-kids-with-the-greatest-number-of-candies) |
+| [2398-check-if-matrix-is-x-matrix](https://github.com/authoritydmc/DSA/tree/master/2398-check-if-matrix-is-x-matrix) |
 ## Greedy
 |  |
 | ------- |
@@ -134,4 +135,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [1245-user-activity-for-the-past-30-days-i](https://github.com/authoritydmc/DSA/tree/master/1245-user-activity-for-the-past-30-days-i) |
 | [2495-number-of-unique-subjects-taught-by-each-teacher](https://github.com/authoritydmc/DSA/tree/master/2495-number-of-unique-subjects-taught-by-each-teacher) |
+## Matrix
+|  |
+| ------- |
+| [2398-check-if-matrix-is-x-matrix](https://github.com/authoritydmc/DSA/tree/master/2398-check-if-matrix-is-x-matrix) |
 <!---LeetCode Topics End-->
