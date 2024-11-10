@@ -15,6 +15,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## String
 |  |
 | ------- |
+| [0014-longest-common-prefix](https://github.com/authoritydmc/DSA/tree/master/0014-longest-common-prefix) |
 | [0020-valid-parentheses](https://github.com/authoritydmc/DSA/tree/master/0020-valid-parentheses) |
 | [0058-length-of-last-word](https://github.com/authoritydmc/DSA/tree/master/0058-length-of-last-word) |
 | [0125-valid-palindrome](https://github.com/authoritydmc/DSA/tree/master/0125-valid-palindrome) |
@@ -139,4 +140,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [2398-check-if-matrix-is-x-matrix](https://github.com/authoritydmc/DSA/tree/master/2398-check-if-matrix-is-x-matrix) |
+## Trie
+|  |
+| ------- |
+| [0014-longest-common-prefix](https://github.com/authoritydmc/DSA/tree/master/0014-longest-common-prefix) |
 <!---LeetCode Topics End-->
