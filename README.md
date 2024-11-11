@@ -143,6 +143,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0141-linked-list-cycle](https://github.com/authoritydmc/DSA/tree/master/0141-linked-list-cycle) |
+| [2299-merge-nodes-in-between-zeros](https://github.com/authoritydmc/DSA/tree/master/2299-merge-nodes-in-between-zeros) |
 | [2903-insert-greatest-common-divisors-in-linked-list](https://github.com/authoritydmc/DSA/tree/master/2903-insert-greatest-common-divisors-in-linked-list) |
 ## Database
 |  |
@@ -165,4 +166,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [2903-insert-greatest-common-divisors-in-linked-list](https://github.com/authoritydmc/DSA/tree/master/2903-insert-greatest-common-divisors-in-linked-list) |
+## Simulation
+|  |
+| ------- |
+| [2299-merge-nodes-in-between-zeros](https://github.com/authoritydmc/DSA/tree/master/2299-merge-nodes-in-between-zeros) |
 <!---LeetCode Topics End-->
