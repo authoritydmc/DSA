@@ -97,6 +97,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0070-climbing-stairs](https://github.com/authoritydmc/DSA/tree/master/0070-climbing-stairs) |
 | [0202-happy-number](https://github.com/authoritydmc/DSA/tree/master/0202-happy-number) |
 | [1146-greatest-common-divisor-of-strings](https://github.com/authoritydmc/DSA/tree/master/1146-greatest-common-divisor-of-strings) |
+| [2812-find-the-maximum-achievable-number](https://github.com/authoritydmc/DSA/tree/master/2812-find-the-maximum-achievable-number) |
 | [2903-insert-greatest-common-divisors-in-linked-list](https://github.com/authoritydmc/DSA/tree/master/2903-insert-greatest-common-divisors-in-linked-list) |
 | [3476-find-minimum-operations-to-make-all-elements-divisible-by-three](https://github.com/authoritydmc/DSA/tree/master/3476-find-minimum-operations-to-make-all-elements-divisible-by-three) |
 ## Queue
