@@ -1,8 +1,8 @@
 class Solution {
     public String sortVowels(String s) {
         StringBuilder rslt = new StringBuilder();
-        List<Integer> vowelIndex=new ArrayList<>();
-        List<Character> vowelList=new ArrayList<>();
+        List<Integer> vowelIndex=new ArrayList<>(s.length());
+        List<Character> vowelList=new ArrayList<>(s.length());
         Set<Character> vowels=Set.of('a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U');
         for(int i =0;i<s.length();i++)
         {
