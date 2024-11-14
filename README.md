@@ -39,6 +39,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0027-remove-element](https://github.com/authoritydmc/DSA/tree/master/0027-remove-element) |
 | [0041-first-missing-positive](https://github.com/authoritydmc/DSA/tree/master/0041-first-missing-positive) |
+| [0056-merge-intervals](https://github.com/authoritydmc/DSA/tree/master/0056-merge-intervals) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/authoritydmc/DSA/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/authoritydmc/DSA/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/authoritydmc/DSA/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
@@ -112,6 +113,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Sorting
 |  |
 | ------- |
+| [0056-merge-intervals](https://github.com/authoritydmc/DSA/tree/master/0056-merge-intervals) |
 | [0169-majority-element](https://github.com/authoritydmc/DSA/tree/master/0169-majority-element) |
 | [0242-valid-anagram](https://github.com/authoritydmc/DSA/tree/master/0242-valid-anagram) |
 | [0748-largest-number-at-least-twice-of-others](https://github.com/authoritydmc/DSA/tree/master/0748-largest-number-at-least-twice-of-others) |
