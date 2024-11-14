@@ -49,6 +49,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0209-minimum-size-subarray-sum](https://github.com/authoritydmc/DSA/tree/master/0209-minimum-size-subarray-sum) |
 | [0219-contains-duplicate-ii](https://github.com/authoritydmc/DSA/tree/master/0219-contains-duplicate-ii) |
 | [0322-coin-change](https://github.com/authoritydmc/DSA/tree/master/0322-coin-change) |
+| [0494-target-sum](https://github.com/authoritydmc/DSA/tree/master/0494-target-sum) |
 | [0605-can-place-flowers](https://github.com/authoritydmc/DSA/tree/master/0605-can-place-flowers) |
 | [0747-min-cost-climbing-stairs](https://github.com/authoritydmc/DSA/tree/master/0747-min-cost-climbing-stairs) |
 | [0748-largest-number-at-least-twice-of-others](https://github.com/authoritydmc/DSA/tree/master/0748-largest-number-at-least-twice-of-others) |
@@ -99,6 +100,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/authoritydmc/DSA/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0198-house-robber](https://github.com/authoritydmc/DSA/tree/master/0198-house-robber) |
 | [0322-coin-change](https://github.com/authoritydmc/DSA/tree/master/0322-coin-change) |
+| [0494-target-sum](https://github.com/authoritydmc/DSA/tree/master/0494-target-sum) |
 | [0747-min-cost-climbing-stairs](https://github.com/authoritydmc/DSA/tree/master/0747-min-cost-climbing-stairs) |
 | [1086-divisor-game](https://github.com/authoritydmc/DSA/tree/master/1086-divisor-game) |
 | [3525-maximum-energy-boost-from-two-drinks](https://github.com/authoritydmc/DSA/tree/master/3525-maximum-energy-boost-from-two-drinks) |
@@ -227,4 +229,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1086-divisor-game](https://github.com/authoritydmc/DSA/tree/master/1086-divisor-game) |
+## Backtracking
+|  |
+| ------- |
+| [0494-target-sum](https://github.com/authoritydmc/DSA/tree/master/0494-target-sum) |
 <!---LeetCode Topics End-->
