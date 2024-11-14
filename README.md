@@ -34,6 +34,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1894-merge-strings-alternately](https://github.com/authoritydmc/DSA/tree/master/1894-merge-strings-alternately) |
 | [2887-sort-vowels-in-a-string](https://github.com/authoritydmc/DSA/tree/master/2887-sort-vowels-in-a-string) |
 | [3540-hash-divided-string](https://github.com/authoritydmc/DSA/tree/master/3540-hash-divided-string) |
+| [3629-total-characters-in-string-after-transformations-i](https://github.com/authoritydmc/DSA/tree/master/3629-total-characters-in-string-after-transformations-i) |
 ## Array
 |  |
 | ------- |
@@ -79,6 +80,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0829-subdomain-visit-count](https://github.com/authoritydmc/DSA/tree/master/0829-subdomain-visit-count) |
 | [0837-most-common-word](https://github.com/authoritydmc/DSA/tree/master/0837-most-common-word) |
 | [0965-unique-email-addresses](https://github.com/authoritydmc/DSA/tree/master/0965-unique-email-addresses) |
+| [3629-total-characters-in-string-after-transformations-i](https://github.com/authoritydmc/DSA/tree/master/3629-total-characters-in-string-after-transformations-i) |
 ## Counting
 |  |
 | ------- |
@@ -87,6 +89,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0387-first-unique-character-in-a-string](https://github.com/authoritydmc/DSA/tree/master/0387-first-unique-character-in-a-string) |
 | [0829-subdomain-visit-count](https://github.com/authoritydmc/DSA/tree/master/0829-subdomain-visit-count) |
 | [0837-most-common-word](https://github.com/authoritydmc/DSA/tree/master/0837-most-common-word) |
+| [3629-total-characters-in-string-after-transformations-i](https://github.com/authoritydmc/DSA/tree/master/3629-total-characters-in-string-after-transformations-i) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -97,6 +100,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0322-coin-change](https://github.com/authoritydmc/DSA/tree/master/0322-coin-change) |
 | [0747-min-cost-climbing-stairs](https://github.com/authoritydmc/DSA/tree/master/0747-min-cost-climbing-stairs) |
 | [1086-divisor-game](https://github.com/authoritydmc/DSA/tree/master/1086-divisor-game) |
+| [3629-total-characters-in-string-after-transformations-i](https://github.com/authoritydmc/DSA/tree/master/3629-total-characters-in-string-after-transformations-i) |
 ## Math
 |  |
 | ------- |
@@ -108,6 +112,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2812-find-the-maximum-achievable-number](https://github.com/authoritydmc/DSA/tree/master/2812-find-the-maximum-achievable-number) |
 | [2903-insert-greatest-common-divisors-in-linked-list](https://github.com/authoritydmc/DSA/tree/master/2903-insert-greatest-common-divisors-in-linked-list) |
 | [3476-find-minimum-operations-to-make-all-elements-divisible-by-three](https://github.com/authoritydmc/DSA/tree/master/3476-find-minimum-operations-to-make-all-elements-divisible-by-three) |
+| [3629-total-characters-in-string-after-transformations-i](https://github.com/authoritydmc/DSA/tree/master/3629-total-characters-in-string-after-transformations-i) |
 ## Queue
 |  |
 | ------- |
