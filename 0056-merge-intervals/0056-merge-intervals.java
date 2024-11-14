@@ -11,7 +11,7 @@ class Solution {
         for (int i = 1; i < intervals.length; i++) {
             if(intervals[i][0]<=solutions[index][1])
             {
-                //we find start time less than previous end time hence merge 
+                //we found start time less than previous end time hence merge 
                 solutions[index][1]= Math.max(solutions[index][1],intervals[i][1]);
             }else
             {
