@@ -58,6 +58,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1528-kids-with-the-greatest-number-of-candies](https://github.com/authoritydmc/DSA/tree/master/1528-kids-with-the-greatest-number-of-candies) |
 | [2398-check-if-matrix-is-x-matrix](https://github.com/authoritydmc/DSA/tree/master/2398-check-if-matrix-is-x-matrix) |
 | [3476-find-minimum-operations-to-make-all-elements-divisible-by-three](https://github.com/authoritydmc/DSA/tree/master/3476-find-minimum-operations-to-make-all-elements-divisible-by-three) |
+| [3525-maximum-energy-boost-from-two-drinks](https://github.com/authoritydmc/DSA/tree/master/3525-maximum-energy-boost-from-two-drinks) |
 ## Greedy
 |  |
 | ------- |
@@ -100,6 +101,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0322-coin-change](https://github.com/authoritydmc/DSA/tree/master/0322-coin-change) |
 | [0747-min-cost-climbing-stairs](https://github.com/authoritydmc/DSA/tree/master/0747-min-cost-climbing-stairs) |
 | [1086-divisor-game](https://github.com/authoritydmc/DSA/tree/master/1086-divisor-game) |
+| [3525-maximum-energy-boost-from-two-drinks](https://github.com/authoritydmc/DSA/tree/master/3525-maximum-energy-boost-from-two-drinks) |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/authoritydmc/DSA/tree/master/3629-total-characters-in-string-after-transformations-i) |
 ## Math
 |  |
