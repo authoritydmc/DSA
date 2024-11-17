@@ -17,6 +17,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## String
 |  |
 | ------- |
+| [0012-integer-to-roman](https://github.com/authoritydmc/DSA/tree/master/0012-integer-to-roman) |
 | [0013-roman-to-integer](https://github.com/authoritydmc/DSA/tree/master/0013-roman-to-integer) |
 | [0014-longest-common-prefix](https://github.com/authoritydmc/DSA/tree/master/0014-longest-common-prefix) |
 | [0020-valid-parentheses](https://github.com/authoritydmc/DSA/tree/master/0020-valid-parentheses) |
@@ -71,6 +72,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Hash Table
 |  |
 | ------- |
+| [0012-integer-to-roman](https://github.com/authoritydmc/DSA/tree/master/0012-integer-to-roman) |
 | [0013-roman-to-integer](https://github.com/authoritydmc/DSA/tree/master/0013-roman-to-integer) |
 | [0041-first-missing-positive](https://github.com/authoritydmc/DSA/tree/master/0041-first-missing-positive) |
 | [0141-linked-list-cycle](https://github.com/authoritydmc/DSA/tree/master/0141-linked-list-cycle) |
@@ -112,6 +114,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Math
 |  |
 | ------- |
+| [0012-integer-to-roman](https://github.com/authoritydmc/DSA/tree/master/0012-integer-to-roman) |
 | [0013-roman-to-integer](https://github.com/authoritydmc/DSA/tree/master/0013-roman-to-integer) |
 | [0070-climbing-stairs](https://github.com/authoritydmc/DSA/tree/master/0070-climbing-stairs) |
 | [0202-happy-number](https://github.com/authoritydmc/DSA/tree/master/0202-happy-number) |
