@@ -24,6 +24,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/authoritydmc/DSA/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0049-group-anagrams](https://github.com/authoritydmc/DSA/tree/master/0049-group-anagrams) |
 | [0058-length-of-last-word](https://github.com/authoritydmc/DSA/tree/master/0058-length-of-last-word) |
+| [0068-text-justification](https://github.com/authoritydmc/DSA/tree/master/0068-text-justification) |
 | [0125-valid-palindrome](https://github.com/authoritydmc/DSA/tree/master/0125-valid-palindrome) |
 | [0242-valid-anagram](https://github.com/authoritydmc/DSA/tree/master/0242-valid-anagram) |
 | [0290-word-pattern](https://github.com/authoritydmc/DSA/tree/master/0290-word-pattern) |
@@ -46,6 +47,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0041-first-missing-positive](https://github.com/authoritydmc/DSA/tree/master/0041-first-missing-positive) |
 | [0049-group-anagrams](https://github.com/authoritydmc/DSA/tree/master/0049-group-anagrams) |
 | [0056-merge-intervals](https://github.com/authoritydmc/DSA/tree/master/0056-merge-intervals) |
+| [0068-text-justification](https://github.com/authoritydmc/DSA/tree/master/0068-text-justification) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/authoritydmc/DSA/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/authoritydmc/DSA/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/authoritydmc/DSA/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
@@ -219,6 +221,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Simulation
 |  |
 | ------- |
+| [0068-text-justification](https://github.com/authoritydmc/DSA/tree/master/0068-text-justification) |
 | [2299-merge-nodes-in-between-zeros](https://github.com/authoritydmc/DSA/tree/master/2299-merge-nodes-in-between-zeros) |
 | [3540-hash-divided-string](https://github.com/authoritydmc/DSA/tree/master/3540-hash-divided-string) |
 ## Binary Search
