@@ -7,6 +7,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0027-remove-element](https://github.com/authoritydmc/DSA/tree/master/0027-remove-element) |
+| [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/authoritydmc/DSA/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/authoritydmc/DSA/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0125-valid-palindrome](https://github.com/authoritydmc/DSA/tree/master/0125-valid-palindrome) |
 | [0141-linked-list-cycle](https://github.com/authoritydmc/DSA/tree/master/0141-linked-list-cycle) |
@@ -19,6 +20,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0013-roman-to-integer](https://github.com/authoritydmc/DSA/tree/master/0013-roman-to-integer) |
 | [0014-longest-common-prefix](https://github.com/authoritydmc/DSA/tree/master/0014-longest-common-prefix) |
 | [0020-valid-parentheses](https://github.com/authoritydmc/DSA/tree/master/0020-valid-parentheses) |
+| [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/authoritydmc/DSA/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0058-length-of-last-word](https://github.com/authoritydmc/DSA/tree/master/0058-length-of-last-word) |
 | [0125-valid-palindrome](https://github.com/authoritydmc/DSA/tree/master/0125-valid-palindrome) |
 | [0242-valid-anagram](https://github.com/authoritydmc/DSA/tree/master/0242-valid-anagram) |
@@ -240,4 +242,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1217-relative-sort-array](https://github.com/authoritydmc/DSA/tree/master/1217-relative-sort-array) |
+## String Matching
+|  |
+| ------- |
+| [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/authoritydmc/DSA/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 <!---LeetCode Topics End-->
