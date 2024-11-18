@@ -31,6 +31,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0345-reverse-vowels-of-a-string](https://github.com/authoritydmc/DSA/tree/master/0345-reverse-vowels-of-a-string) |
 | [0383-ransom-note](https://github.com/authoritydmc/DSA/tree/master/0383-ransom-note) |
 | [0387-first-unique-character-in-a-string](https://github.com/authoritydmc/DSA/tree/master/0387-first-unique-character-in-a-string) |
+| [0482-license-key-formatting](https://github.com/authoritydmc/DSA/tree/master/0482-license-key-formatting) |
 | [0782-jewels-and-stones](https://github.com/authoritydmc/DSA/tree/master/0782-jewels-and-stones) |
 | [0829-subdomain-visit-count](https://github.com/authoritydmc/DSA/tree/master/0829-subdomain-visit-count) |
 | [0837-most-common-word](https://github.com/authoritydmc/DSA/tree/master/0837-most-common-word) |
