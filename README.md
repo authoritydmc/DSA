@@ -61,6 +61,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0322-coin-change](https://github.com/authoritydmc/DSA/tree/master/0322-coin-change) |
 | [0494-target-sum](https://github.com/authoritydmc/DSA/tree/master/0494-target-sum) |
 | [0605-can-place-flowers](https://github.com/authoritydmc/DSA/tree/master/0605-can-place-flowers) |
+| [0643-maximum-average-subarray-i](https://github.com/authoritydmc/DSA/tree/master/0643-maximum-average-subarray-i) |
 | [0747-min-cost-climbing-stairs](https://github.com/authoritydmc/DSA/tree/master/0747-min-cost-climbing-stairs) |
 | [0748-largest-number-at-least-twice-of-others](https://github.com/authoritydmc/DSA/tree/master/0748-largest-number-at-least-twice-of-others) |
 | [0829-subdomain-visit-count](https://github.com/authoritydmc/DSA/tree/master/0829-subdomain-visit-count) |
@@ -223,6 +224,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0209-minimum-size-subarray-sum](https://github.com/authoritydmc/DSA/tree/master/0209-minimum-size-subarray-sum) |
 | [0219-contains-duplicate-ii](https://github.com/authoritydmc/DSA/tree/master/0219-contains-duplicate-ii) |
 | [0239-sliding-window-maximum](https://github.com/authoritydmc/DSA/tree/master/0239-sliding-window-maximum) |
+| [0643-maximum-average-subarray-i](https://github.com/authoritydmc/DSA/tree/master/0643-maximum-average-subarray-i) |
 ## Number Theory
 |  |
 | ------- |
