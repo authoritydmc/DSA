@@ -39,6 +39,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1146-greatest-common-divisor-of-strings](https://github.com/authoritydmc/DSA/tree/master/1146-greatest-common-divisor-of-strings) |
 | [1302-delete-characters-to-make-fancy-string](https://github.com/authoritydmc/DSA/tree/master/1302-delete-characters-to-make-fancy-string) |
 | [1894-merge-strings-alternately](https://github.com/authoritydmc/DSA/tree/master/1894-merge-strings-alternately) |
+| [2599-take-k-of-each-character-from-left-and-right](https://github.com/authoritydmc/DSA/tree/master/2599-take-k-of-each-character-from-left-and-right) |
 | [2887-sort-vowels-in-a-string](https://github.com/authoritydmc/DSA/tree/master/2887-sort-vowels-in-a-string) |
 | [3540-hash-divided-string](https://github.com/authoritydmc/DSA/tree/master/3540-hash-divided-string) |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/authoritydmc/DSA/tree/master/3629-total-characters-in-string-after-transformations-i) |
@@ -104,6 +105,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1217-relative-sort-array](https://github.com/authoritydmc/DSA/tree/master/1217-relative-sort-array) |
 | [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/authoritydmc/DSA/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/authoritydmc/DSA/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
+| [2599-take-k-of-each-character-from-left-and-right](https://github.com/authoritydmc/DSA/tree/master/2599-take-k-of-each-character-from-left-and-right) |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/authoritydmc/DSA/tree/master/3629-total-characters-in-string-after-transformations-i) |
 ## Counting
 |  |
@@ -237,6 +239,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0239-sliding-window-maximum](https://github.com/authoritydmc/DSA/tree/master/0239-sliding-window-maximum) |
 | [0643-maximum-average-subarray-i](https://github.com/authoritydmc/DSA/tree/master/0643-maximum-average-subarray-i) |
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/authoritydmc/DSA/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
+| [2599-take-k-of-each-character-from-left-and-right](https://github.com/authoritydmc/DSA/tree/master/2599-take-k-of-each-character-from-left-and-right) |
 ## Number Theory
 |  |
 | ------- |
