@@ -75,6 +75,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1528-kids-with-the-greatest-number-of-candies](https://github.com/authoritydmc/DSA/tree/master/1528-kids-with-the-greatest-number-of-candies) |
 | [1572-subrectangle-queries](https://github.com/authoritydmc/DSA/tree/master/1572-subrectangle-queries) |
 | [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/authoritydmc/DSA/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
+| [2343-count-unguarded-cells-in-the-grid](https://github.com/authoritydmc/DSA/tree/master/2343-count-unguarded-cells-in-the-grid) |
 | [2398-check-if-matrix-is-x-matrix](https://github.com/authoritydmc/DSA/tree/master/2398-check-if-matrix-is-x-matrix) |
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/authoritydmc/DSA/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [3476-find-minimum-operations-to-make-all-elements-divisible-by-three](https://github.com/authoritydmc/DSA/tree/master/3476-find-minimum-operations-to-make-all-elements-divisible-by-three) |
@@ -235,6 +236,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1572-subrectangle-queries](https://github.com/authoritydmc/DSA/tree/master/1572-subrectangle-queries) |
+| [2343-count-unguarded-cells-in-the-grid](https://github.com/authoritydmc/DSA/tree/master/2343-count-unguarded-cells-in-the-grid) |
 | [2398-check-if-matrix-is-x-matrix](https://github.com/authoritydmc/DSA/tree/master/2398-check-if-matrix-is-x-matrix) |
 ## Trie
 |  |
@@ -258,6 +260,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0068-text-justification](https://github.com/authoritydmc/DSA/tree/master/0068-text-justification) |
 | [2299-merge-nodes-in-between-zeros](https://github.com/authoritydmc/DSA/tree/master/2299-merge-nodes-in-between-zeros) |
+| [2343-count-unguarded-cells-in-the-grid](https://github.com/authoritydmc/DSA/tree/master/2343-count-unguarded-cells-in-the-grid) |
 | [3540-hash-divided-string](https://github.com/authoritydmc/DSA/tree/master/3540-hash-divided-string) |
 ## Binary Search
 |  |
