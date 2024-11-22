@@ -33,8 +33,37 @@ class Solution {
 
     }
     public boolean canJump(int[] nums) {
-        memo=new int [nums.length+1];
-        Arrays.fill(memo,-1);
-        return solve(nums,0);
+        // memo=new int [nums.length+1];
+        // Arrays.fill(memo,-1);
+                  
+
+        // return solve(nums,0);
+        return tabSolve( nums);
+
+    }
+
+    private boolean tabSolve(int [] nums)
+    {
+        boolean [] dp=new boolean [nums.length];
+        //can we reach this position by jumping on same location yes 
+        dp[0]=true;
+
+        for(int i=0;i<nums.length-1;i++)
+        {
+            int maxJumpTo=nums[i];
+            System.out.println("Current index "+i+ "can max jump to "+(i+maxJumpTo)+" index");
+            if(dp[i]==false)
+                return false;
+            for(int j=1;j<=maxJumpTo;j++)
+            {
+                //we are marking each place we can jump to true;
+                if(i+j>=nums.length)
+                return true;
+                dp[i+j]=true;
+            }
+        }
+        
+
+        return dp[nums.length-1];
     }
 }
