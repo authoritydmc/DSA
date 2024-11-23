@@ -36,7 +36,7 @@ class Solution {
                     if(rsltbox[traversal][col]=='*')
                     {
                         //obstacle found ... 
-                        //we should check below obstacles 
+                        //we should not check below obstacles 
                         row=traversal;
                         //
                         traversal-=1;
