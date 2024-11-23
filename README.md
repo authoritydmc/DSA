@@ -27,6 +27,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0058-length-of-last-word](https://github.com/authoritydmc/DSA/tree/master/0058-length-of-last-word) |
 | [0068-text-justification](https://github.com/authoritydmc/DSA/tree/master/0068-text-justification) |
 | [0125-valid-palindrome](https://github.com/authoritydmc/DSA/tree/master/0125-valid-palindrome) |
+| [0208-implement-trie-prefix-tree](https://github.com/authoritydmc/DSA/tree/master/0208-implement-trie-prefix-tree) |
 | [0242-valid-anagram](https://github.com/authoritydmc/DSA/tree/master/0242-valid-anagram) |
 | [0290-word-pattern](https://github.com/authoritydmc/DSA/tree/master/0290-word-pattern) |
 | [0345-reverse-vowels-of-a-string](https://github.com/authoritydmc/DSA/tree/master/0345-reverse-vowels-of-a-string) |
@@ -103,6 +104,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0146-lru-cache](https://github.com/authoritydmc/DSA/tree/master/0146-lru-cache) |
 | [0169-majority-element](https://github.com/authoritydmc/DSA/tree/master/0169-majority-element) |
 | [0202-happy-number](https://github.com/authoritydmc/DSA/tree/master/0202-happy-number) |
+| [0208-implement-trie-prefix-tree](https://github.com/authoritydmc/DSA/tree/master/0208-implement-trie-prefix-tree) |
 | [0219-contains-duplicate-ii](https://github.com/authoritydmc/DSA/tree/master/0219-contains-duplicate-ii) |
 | [0242-valid-anagram](https://github.com/authoritydmc/DSA/tree/master/0242-valid-anagram) |
 | [0290-word-pattern](https://github.com/authoritydmc/DSA/tree/master/0290-word-pattern) |
@@ -256,6 +258,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0014-longest-common-prefix](https://github.com/authoritydmc/DSA/tree/master/0014-longest-common-prefix) |
+| [0208-implement-trie-prefix-tree](https://github.com/authoritydmc/DSA/tree/master/0208-implement-trie-prefix-tree) |
 ## Sliding Window
 |  |
 | ------- |
@@ -330,6 +333,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0146-lru-cache](https://github.com/authoritydmc/DSA/tree/master/0146-lru-cache) |
+| [0208-implement-trie-prefix-tree](https://github.com/authoritydmc/DSA/tree/master/0208-implement-trie-prefix-tree) |
 | [1572-subrectangle-queries](https://github.com/authoritydmc/DSA/tree/master/1572-subrectangle-queries) |
 ## Doubly-Linked List
 |  |
