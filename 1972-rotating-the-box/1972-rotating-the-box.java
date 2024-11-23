@@ -1,24 +1,24 @@
 class Solution {
    public char[][] rotateTheBox(char[][] box) {
-        int m = box.length;  // number of rows
-        int n = box[0].length; // number of columns
-        char[][] rsltbox = new char[n][m];  // Create a new box to hold the rotated result
+        int box_row = box.length;  // number of rows
+        int box_col= box[0].length; // number of columns
+        char[][] rsltbox = new char[box_col][box_row];  // Create a new box to hold the rotated result
         
         // Iterate through each column in the original box
-        for (int i = 0; i < n; i++) {
+        for (int row = 0; row < box_col; row++) {
             // Iterate through each row of the original box
-            for (int j = m - 1; j >= 0; j--) {
+            for (int col = box_row - 1; col >= 0; col--) {
                 // Place the current element at the rotated position
-                rsltbox[i][j] = box[m - j - 1][i]; // Rotate the element from (m-j-1, i) to (i, j)
+                rsltbox[row][col] = box[box_row - col - 1][row]; // Rotate the element from (m-j-1, i) to (i, j)
             }
         }
         // printBox(rsltbox);
         //process each cols now 
-        for(int col=0;col<m;col++)
+        for(int col=0;col<box_row;col++)
         {   
             //for each cols start from bottom i.e last cell and try to shift
                int traversal=Integer.MAX_VALUE;
-              for(int row=n-1;row>=0;row--)
+              for(int row=box_col-1;row>=0;row--)
               {
                 //this cell has stone ,, cant move past it ...
                 if(rsltbox[row][col]=='*')
