@@ -14,7 +14,7 @@ class Solution {
 
         int box = 0;
         for (int row = 0; row < board.length; row++) {
-            System.out.println("Checking for box "+box);
+           // System.out.println("Checking for box "+box);
             for (int col = 0; col < 9; col++) {
                 int num = board[row][col];
                 if (num >= '0' && num <= '9')
@@ -22,20 +22,20 @@ class Solution {
                 else
                     continue;
                  box = (row / 3) * 3 + (col / 3);
-                System.out.println("Checking number: " + num + " at position (" + row + ", " + col + ")"+" for box"+box);
+               // System.out.println("Checking number: " + num + " at position (" + row + ", " + col + ")"+" for box"+box);
 
                 // if it exist in the any row ,col or box then return false;
                 boxSet.putIfAbsent(box, new HashSet<>());
                 if (boxSet.get(box).contains(num)) {
-                    System.out.println("Duplicate found in box " + box);
+                 //   System.out.println("Duplicate found in box " + box);
                     return false;
                 }
                 if (colSet[col].contains(num)) {
-                    System.out.println("Duplicate found in column " + col);
+                   // System.out.println("Duplicate found in column " + col);
                     return false;
                 }
                 if (rowSet[row].contains(num)) {
-                    System.out.println("Duplicate found in row " + row);
+                  //  System.out.println("Duplicate found in row " + row);
                     return false;
                 }
 
@@ -47,9 +47,9 @@ class Solution {
 
                 boxSet.get(box).add(num);
 
-                System.out.println("Row Set[" + row + "]: " + rowSet[row]);
-                System.out.println("Column Set[" + col + "]: " + colSet[col]);
-                System.out.println("Box Set[" + box + "]: " + boxSet.get(box));
+                // System.out.println("Row Set[" + row + "]: " + rowSet[row]);
+                // System.out.println("Column Set[" + col + "]: " + colSet[col]);
+                // System.out.println("Box Set[" + box + "]: " + boxSet.get(box));
 
             }
        
