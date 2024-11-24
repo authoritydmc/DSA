@@ -81,6 +81,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1572-subrectangle-queries](https://github.com/authoritydmc/DSA/tree/master/1572-subrectangle-queries) |
 | [1972-rotating-the-box](https://github.com/authoritydmc/DSA/tree/master/1972-rotating-the-box) |
 | [2048-build-array-from-permutation](https://github.com/authoritydmc/DSA/tree/master/2048-build-array-from-permutation) |
+| [2089-maximum-matrix-sum](https://github.com/authoritydmc/DSA/tree/master/2089-maximum-matrix-sum) |
 | [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/authoritydmc/DSA/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
 | [2343-count-unguarded-cells-in-the-grid](https://github.com/authoritydmc/DSA/tree/master/2343-count-unguarded-cells-in-the-grid) |
 | [2398-check-if-matrix-is-x-matrix](https://github.com/authoritydmc/DSA/tree/master/2398-check-if-matrix-is-x-matrix) |
@@ -95,6 +96,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0055-jump-game](https://github.com/authoritydmc/DSA/tree/master/0055-jump-game) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/authoritydmc/DSA/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0605-can-place-flowers](https://github.com/authoritydmc/DSA/tree/master/0605-can-place-flowers) |
+| [2089-maximum-matrix-sum](https://github.com/authoritydmc/DSA/tree/master/2089-maximum-matrix-sum) |
 ## Hash Table
 |  |
 | ------- |
@@ -254,6 +256,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/authoritydmc/DSA/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
 | [1572-subrectangle-queries](https://github.com/authoritydmc/DSA/tree/master/1572-subrectangle-queries) |
 | [1972-rotating-the-box](https://github.com/authoritydmc/DSA/tree/master/1972-rotating-the-box) |
+| [2089-maximum-matrix-sum](https://github.com/authoritydmc/DSA/tree/master/2089-maximum-matrix-sum) |
 | [2343-count-unguarded-cells-in-the-grid](https://github.com/authoritydmc/DSA/tree/master/2343-count-unguarded-cells-in-the-grid) |
 | [2398-check-if-matrix-is-x-matrix](https://github.com/authoritydmc/DSA/tree/master/2398-check-if-matrix-is-x-matrix) |
 ## Trie
