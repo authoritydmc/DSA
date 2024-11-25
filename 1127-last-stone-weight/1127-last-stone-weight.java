@@ -5,9 +5,8 @@ class Solution {
             pq.add(stone);
         }
         int res=0;
-        while (true) {
-              if(pq.size()<=1)
-              break;
+        while (pq.size()>1) {
+           
                 int y=pq.poll();
                
                 int x=pq.poll();
