@@ -250,6 +250,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/authoritydmc/DSA/tree/master/0020-valid-parentheses) |
+| [0155-min-stack](https://github.com/authoritydmc/DSA/tree/master/0155-min-stack) |
 ## Linked List
 |  |
 | ------- |
@@ -359,6 +360,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0146-lru-cache](https://github.com/authoritydmc/DSA/tree/master/0146-lru-cache) |
+| [0155-min-stack](https://github.com/authoritydmc/DSA/tree/master/0155-min-stack) |
 | [0208-implement-trie-prefix-tree](https://github.com/authoritydmc/DSA/tree/master/0208-implement-trie-prefix-tree) |
 | [1572-subrectangle-queries](https://github.com/authoritydmc/DSA/tree/master/1572-subrectangle-queries) |
 ## Doubly-Linked List
