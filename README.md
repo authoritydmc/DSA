@@ -391,4 +391,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0382-linked-list-random-node](https://github.com/authoritydmc/DSA/tree/master/0382-linked-list-random-node) |
+## Graph
+|  |
+| ------- |
+| [3189-find-champion-ii](https://github.com/authoritydmc/DSA/tree/master/3189-find-champion-ii) |
 <!---LeetCode Topics End-->
