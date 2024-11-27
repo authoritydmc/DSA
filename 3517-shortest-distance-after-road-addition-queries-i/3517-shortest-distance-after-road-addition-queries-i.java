@@ -25,7 +25,10 @@ class Solution {
                 }
                 continue;
             }
-            
+            // target already visited no need to traverse now
+            if (visited.contains(node)) {
+                continue;
+            }
             visited.add(node);
             List<Integer> nodesToExplore=graph.get(node);
             for(int n:nodesToExplore)
