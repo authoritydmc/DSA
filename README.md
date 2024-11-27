@@ -52,6 +52,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Array
 |  |
 | ------- |
+| [0004-median-of-two-sorted-arrays](https://github.com/authoritydmc/DSA/tree/master/0004-median-of-two-sorted-arrays) |
 | [0027-remove-element](https://github.com/authoritydmc/DSA/tree/master/0027-remove-element) |
 | [0036-valid-sudoku](https://github.com/authoritydmc/DSA/tree/master/0036-valid-sudoku) |
 | [0041-first-missing-positive](https://github.com/authoritydmc/DSA/tree/master/0041-first-missing-positive) |
@@ -245,6 +246,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Divide and Conquer
 |  |
 | ------- |
+| [0004-median-of-two-sorted-arrays](https://github.com/authoritydmc/DSA/tree/master/0004-median-of-two-sorted-arrays) |
 | [0169-majority-element](https://github.com/authoritydmc/DSA/tree/master/0169-majority-element) |
 | [0215-kth-largest-element-in-an-array](https://github.com/authoritydmc/DSA/tree/master/0215-kth-largest-element-in-an-array) |
 | [0347-top-k-frequent-elements](https://github.com/authoritydmc/DSA/tree/master/0347-top-k-frequent-elements) |
@@ -310,6 +312,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Binary Search
 |  |
 | ------- |
+| [0004-median-of-two-sorted-arrays](https://github.com/authoritydmc/DSA/tree/master/0004-median-of-two-sorted-arrays) |
 | [0209-minimum-size-subarray-sum](https://github.com/authoritydmc/DSA/tree/master/0209-minimum-size-subarray-sum) |
 ## Prefix Sum
 |  |
