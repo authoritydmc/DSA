@@ -1,90 +1,34 @@
+import java.util.*;
+
 class Solution {
 
-    private void buildGraph(Map<String, Integer> costMap, Map<Integer, List<Integer>> graph, int[][] flights) {
-        for (int[] flightData : flights) {
-            int src = flightData[0];
-            int des = flightData[1];
-            int cost = flightData[2];
-            String costKey = src + "_" + des;
-            costMap.put(costKey, cost);
-            graph.putIfAbsent(src, new ArrayList<>());
-            graph.get(src).add(des);
-        }
-    }
-
-    private int getCost(int src, int des, Map<String, Integer> costMap) {
-        return costMap.getOrDefault(src + "_" + des, 0);
-    }
-
     public int findCheapestPrice(int n, int[][] flights, int src, int dst, int k) {
-        int minimum_cost = Integer.MAX_VALUE;
-        Map<String, Integer> costMap = new HashMap<>();
-        Map<Integer, List<Integer>> graph = new HashMap<>();
-        Map<Integer, Integer> minCostAtLevel = new HashMap<>();
+        // Distance array to track minimum costs to each city
+        int[] distances = new int[n];
+        Arrays.fill(distances, Integer.MAX_VALUE);
+        distances[src] = 0;
 
-        buildGraph(costMap, graph, flights);
-        Queue<int[]> q = new LinkedList<>();
-        q.add(new int[] { src, 0 }); // {city, cost up to this city}
-        q.add(new int[] { -1, 0 });
-        int lvl = 0;
+        // Temporary array to store updated distances during each iteration
+        int[] tempDistances = Arrays.copyOf(distances, n);
 
-        while (!q.isEmpty()) {
-            int[] current = q.poll();
-            int city = current[0];
-            int currentCost = current[1];
+        // Iterate at most k+1 times (0 stops = 1 iteration, 1 stop = 2 iterations, etc.)
+        for (int i = 0; i <= k; i++) {
+            // Process each flight (edge relaxation)
+            for (int[] flight : flights) {
+                int u = flight[0]; // Source city
+                int v = flight[1]; // Destination city
+                int weight = flight[2]; // Cost
 
-            if (city == -1) {
-                lvl++;
-               // System.out.println("Lvl " + lvl + " explored ...");
-                if (lvl > k + 1) {
-                   // System.out.println("Lvl can not be explored further");
-                    break;
-                }
-                if (!q.isEmpty()) {
-                    q.add(new int[] { -1, 0 });
-                }
-                continue;
-            }
-
-            //System.out.println("Exploring city " + city + " with cost " + currentCost);
-
-            if (city == dst) {
-                minimum_cost = Math.min(minimum_cost, currentCost);
-              //  System.out.println("Destination matched at Level " + lvl + " with cost " + currentCost);
-            }
-
-            List<Integer> nbrs = graph.getOrDefault(city, List.of());
-            for (int nbr : nbrs) {
-                int costToNbr = currentCost + getCost(city, nbr, costMap);
-
-                if (costToNbr >= minimum_cost) continue; // Skip expensive paths
-
-                if (minCostAtLevel.getOrDefault(nbr, Integer.MAX_VALUE) > costToNbr) {
-                    minCostAtLevel.put(nbr, costToNbr);
-                    q.add(new int[] { nbr, costToNbr });
-                 //   System.out.println("Neighbor " + nbr + " added with cost " + costToNbr);
+                if (distances[u] != Integer.MAX_VALUE && distances[u] + weight < tempDistances[v]) {
+                    tempDistances[v] = distances[u] + weight;
                 }
             }
-
-          //  System.out.println("Queue is now " + queueToString(q));
+            // Update distances array after processing all flights
+            distances = Arrays.copyOf(tempDistances, n);
         }
 
-        return minimum_cost == Integer.MAX_VALUE ? -1 : minimum_cost;
+        // If the destination city is unreachable, return -1
+        return distances[dst] == Integer.MAX_VALUE ? -1 : distances[dst];
     }
 
-    private String queueToString(Queue<int[]> queue) {
-        StringBuilder sb = new StringBuilder("[");
-        for (int[] pair : queue) {
-            if (pair[0] == -1) {
-                sb.append("#, ");
-                continue;
-            }
-            sb.append("(").append(pair[0]).append(", ").append(pair[1]).append("), ");
-        }
-        if (sb.length() > 1) {
-            sb.setLength(sb.length() - 2);
-        }
-        sb.append("]");
-        return sb.toString();
-    }
 }
