@@ -35,9 +35,9 @@ class Solution {
 
             if (city == -1) {
                 lvl++;
-                System.out.println("Lvl " + lvl + " explored ...");
+               // System.out.println("Lvl " + lvl + " explored ...");
                 if (lvl > k + 1) {
-                    System.out.println("Lvl can not be explored further");
+                   // System.out.println("Lvl can not be explored further");
                     break;
                 }
                 if (!q.isEmpty()) {
@@ -46,11 +46,11 @@ class Solution {
                 continue;
             }
 
-            System.out.println("Exploring city " + city + " with cost " + currentCost);
+            //System.out.println("Exploring city " + city + " with cost " + currentCost);
 
             if (city == dst) {
                 minimum_cost = Math.min(minimum_cost, currentCost);
-                System.out.println("Destination matched at Level " + lvl + " with cost " + currentCost);
+              //  System.out.println("Destination matched at Level " + lvl + " with cost " + currentCost);
             }
 
             List<Integer> nbrs = graph.getOrDefault(city, List.of());
@@ -62,11 +62,11 @@ class Solution {
                 if (minCostAtLevel.getOrDefault(nbr, Integer.MAX_VALUE) > costToNbr) {
                     minCostAtLevel.put(nbr, costToNbr);
                     q.add(new int[] { nbr, costToNbr });
-                    System.out.println("Neighbor " + nbr + " added with cost " + costToNbr);
+                 //   System.out.println("Neighbor " + nbr + " added with cost " + costToNbr);
                 }
             }
 
-            System.out.println("Queue is now " + queueToString(q));
+          //  System.out.println("Queue is now " + queueToString(q));
         }
 
         return minimum_cost == Integer.MAX_VALUE ? -1 : minimum_cost;
