@@ -1,16 +1,18 @@
 class Solution {
 
-    private List<int[]> getNbrs(int i, int j, int rowLength, int colLength) {
+    private List<int[]> getNbrs(int i, int j, int [] [] grid) {
+        int rowLength=grid.length;
+        int colLength=grid[0].length;
         List<int[]> nbrs = new ArrayList<>();
         // we have 4 direction moves :::
         if (i - 1 >= 0)
-            nbrs.add(new int[] { i - 1, j });
+            nbrs.add(new int[] { i - 1, j ,grid[i-1][j]});
         if (j - 1 >= 0)
-            nbrs.add(new int[] { i, j - 1 });
+            nbrs.add(new int[] { i, j - 1 ,grid[i][j-1]});
         if (j + 1 < colLength)
-            nbrs.add(new int[] { i, j + 1 });
+            nbrs.add(new int[] { i, j + 1 ,grid[i][j+1]});
         if (i + 1 < rowLength)
-            nbrs.add(new int[] { i + 1, j });
+            nbrs.add(new int[] { i + 1, j ,grid[i+1][j]});
         return nbrs;
 
     }
@@ -42,10 +44,11 @@ class Solution {
             if (i == m - 1 && j == n - 1)
                 return weight;
             // now get all neighbours ...
-            for (int[] nbr : getNbrs(i, j, m, n)) {
+            for (int[] nbr : getNbrs(i, j, grid)) {
                 int nbrI = nbr[0];
                 int nbrJ = nbr[1];
-                int costToNbr = weight + grid[nbrI][nbrJ];
+                int nbrCost=nbr[2];
+                int costToNbr = weight + nbrCost;
                 if (costToNbr < distances.getOrDefault(getNodeName(nbrI, nbrJ), Integer.MAX_VALUE)) {
                     // we found suitable match hence update the distance
 
