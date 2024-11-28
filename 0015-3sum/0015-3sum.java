@@ -34,8 +34,9 @@ class Solution {
                 {
                     //match found insert in result and break;
                     lst.add(List.of(nums[i],nums[l],nums[r]));
+                    r--;
                     l++;
-                    // r--;
+                 
                 }
                else if(sum>0)
                 {
