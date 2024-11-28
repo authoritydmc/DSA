@@ -5,9 +5,9 @@ class Solution {
         int colLength=grid[0].length;
         List<int[]> nbrs = new ArrayList<>();
         // we have 4 direction moves :::
-        if (i - 1 >= 0)
+        if (i  > 0)
             nbrs.add(new int[] { i - 1, j ,grid[i-1][j]});
-        if (j - 1 >= 0)
+        if (j > 0)
             nbrs.add(new int[] { i, j - 1 ,grid[i][j-1]});
         if (j + 1 < colLength)
             nbrs.add(new int[] { i, j + 1 ,grid[i][j+1]});
