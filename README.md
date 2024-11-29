@@ -67,6 +67,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0055-jump-game](https://github.com/authoritydmc/DSA/tree/master/0055-jump-game) |
 | [0056-merge-intervals](https://github.com/authoritydmc/DSA/tree/master/0056-merge-intervals) |
 | [0068-text-justification](https://github.com/authoritydmc/DSA/tree/master/0068-text-justification) |
+| [0078-subsets](https://github.com/authoritydmc/DSA/tree/master/0078-subsets) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/authoritydmc/DSA/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/authoritydmc/DSA/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/authoritydmc/DSA/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
@@ -376,6 +377,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Backtracking
 |  |
 | ------- |
+| [0078-subsets](https://github.com/authoritydmc/DSA/tree/master/0078-subsets) |
 | [0494-target-sum](https://github.com/authoritydmc/DSA/tree/master/0494-target-sum) |
 ## Counting Sort
 |  |
@@ -465,4 +467,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0789-kth-largest-element-in-a-stream](https://github.com/authoritydmc/DSA/tree/master/0789-kth-largest-element-in-a-stream) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0078-subsets](https://github.com/authoritydmc/DSA/tree/master/0078-subsets) |
 <!---LeetCode Topics End-->
