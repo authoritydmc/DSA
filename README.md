@@ -96,6 +96,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1217-relative-sort-array](https://github.com/authoritydmc/DSA/tree/master/1217-relative-sort-array) |
 | [1528-kids-with-the-greatest-number-of-candies](https://github.com/authoritydmc/DSA/tree/master/1528-kids-with-the-greatest-number-of-candies) |
 | [1572-subrectangle-queries](https://github.com/authoritydmc/DSA/tree/master/1572-subrectangle-queries) |
+| [1635-number-of-good-pairs](https://github.com/authoritydmc/DSA/tree/master/1635-number-of-good-pairs) |
 | [1972-rotating-the-box](https://github.com/authoritydmc/DSA/tree/master/1972-rotating-the-box) |
 | [2015-determine-whether-matrix-can-be-obtained-by-rotation](https://github.com/authoritydmc/DSA/tree/master/2015-determine-whether-matrix-can-be-obtained-by-rotation) |
 | [2048-build-array-from-permutation](https://github.com/authoritydmc/DSA/tree/master/2048-build-array-from-permutation) |
@@ -146,6 +147,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0965-unique-email-addresses](https://github.com/authoritydmc/DSA/tree/master/0965-unique-email-addresses) |
 | [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/authoritydmc/DSA/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
 | [1217-relative-sort-array](https://github.com/authoritydmc/DSA/tree/master/1217-relative-sort-array) |
+| [1635-number-of-good-pairs](https://github.com/authoritydmc/DSA/tree/master/1635-number-of-good-pairs) |
 | [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/authoritydmc/DSA/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/authoritydmc/DSA/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [2599-take-k-of-each-character-from-left-and-right](https://github.com/authoritydmc/DSA/tree/master/2599-take-k-of-each-character-from-left-and-right) |
@@ -160,6 +162,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0387-first-unique-character-in-a-string](https://github.com/authoritydmc/DSA/tree/master/0387-first-unique-character-in-a-string) |
 | [0829-subdomain-visit-count](https://github.com/authoritydmc/DSA/tree/master/0829-subdomain-visit-count) |
 | [0837-most-common-word](https://github.com/authoritydmc/DSA/tree/master/0837-most-common-word) |
+| [1635-number-of-good-pairs](https://github.com/authoritydmc/DSA/tree/master/1635-number-of-good-pairs) |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/authoritydmc/DSA/tree/master/3629-total-characters-in-string-after-transformations-i) |
 ## Dynamic Programming
 |  |
@@ -193,6 +196,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1086-divisor-game](https://github.com/authoritydmc/DSA/tree/master/1086-divisor-game) |
 | [1146-greatest-common-divisor-of-strings](https://github.com/authoritydmc/DSA/tree/master/1146-greatest-common-divisor-of-strings) |
 | [1236-n-th-tribonacci-number](https://github.com/authoritydmc/DSA/tree/master/1236-n-th-tribonacci-number) |
+| [1635-number-of-good-pairs](https://github.com/authoritydmc/DSA/tree/master/1635-number-of-good-pairs) |
 | [2556-convert-the-temperature](https://github.com/authoritydmc/DSA/tree/master/2556-convert-the-temperature) |
 | [2812-find-the-maximum-achievable-number](https://github.com/authoritydmc/DSA/tree/master/2812-find-the-maximum-achievable-number) |
 | [2903-insert-greatest-common-divisors-in-linked-list](https://github.com/authoritydmc/DSA/tree/master/2903-insert-greatest-common-divisors-in-linked-list) |
