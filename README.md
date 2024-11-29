@@ -301,6 +301,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1245-user-activity-for-the-past-30-days-i](https://github.com/authoritydmc/DSA/tree/master/1245-user-activity-for-the-past-30-days-i) |
+| [1664-find-users-with-valid-e-mails](https://github.com/authoritydmc/DSA/tree/master/1664-find-users-with-valid-e-mails) |
 | [2495-number-of-unique-subjects-taught-by-each-teacher](https://github.com/authoritydmc/DSA/tree/master/2495-number-of-unique-subjects-taught-by-each-teacher) |
 ## Matrix
 |  |
