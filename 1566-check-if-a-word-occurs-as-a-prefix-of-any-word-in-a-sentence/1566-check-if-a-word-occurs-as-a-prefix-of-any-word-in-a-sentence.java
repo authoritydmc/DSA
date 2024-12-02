@@ -12,7 +12,7 @@ class Tries {
     public void makeTrie(String[] words) {
         int count=1;
         for (String word : words) {
-            System.out.println("Word is "+word);
+            // System.out.println("Word is "+word);
             TrieNode cur = root;
             if (word == " ")
                 continue;
