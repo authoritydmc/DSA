@@ -36,7 +36,7 @@ class Tries {
     }
 
     public int isWordPrefix(String prefix) {
-        int res = -1;
+ 
         TrieNode cur=root;
         for(char c:prefix.toCharArray())
         {
