@@ -17,6 +17,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/authoritydmc/DSA/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0202-happy-number](https://github.com/authoritydmc/DSA/tree/master/0202-happy-number) |
 | [0345-reverse-vowels-of-a-string](https://github.com/authoritydmc/DSA/tree/master/0345-reverse-vowels-of-a-string) |
+| [0392-is-subsequence](https://github.com/authoritydmc/DSA/tree/master/0392-is-subsequence) |
 | [1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence](https://github.com/authoritydmc/DSA/tree/master/1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence) |
 | [1894-merge-strings-alternately](https://github.com/authoritydmc/DSA/tree/master/1894-merge-strings-alternately) |
 | [1972-rotating-the-box](https://github.com/authoritydmc/DSA/tree/master/1972-rotating-the-box) |
@@ -42,6 +43,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0345-reverse-vowels-of-a-string](https://github.com/authoritydmc/DSA/tree/master/0345-reverse-vowels-of-a-string) |
 | [0383-ransom-note](https://github.com/authoritydmc/DSA/tree/master/0383-ransom-note) |
 | [0387-first-unique-character-in-a-string](https://github.com/authoritydmc/DSA/tree/master/0387-first-unique-character-in-a-string) |
+| [0392-is-subsequence](https://github.com/authoritydmc/DSA/tree/master/0392-is-subsequence) |
 | [0482-license-key-formatting](https://github.com/authoritydmc/DSA/tree/master/0482-license-key-formatting) |
 | [0782-jewels-and-stones](https://github.com/authoritydmc/DSA/tree/master/0782-jewels-and-stones) |
 | [0829-subdomain-visit-count](https://github.com/authoritydmc/DSA/tree/master/0829-subdomain-visit-count) |
@@ -187,6 +189,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/authoritydmc/DSA/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0198-house-robber](https://github.com/authoritydmc/DSA/tree/master/0198-house-robber) |
 | [0322-coin-change](https://github.com/authoritydmc/DSA/tree/master/0322-coin-change) |
+| [0392-is-subsequence](https://github.com/authoritydmc/DSA/tree/master/0392-is-subsequence) |
 | [0494-target-sum](https://github.com/authoritydmc/DSA/tree/master/0494-target-sum) |
 | [0650-2-keys-keyboard](https://github.com/authoritydmc/DSA/tree/master/0650-2-keys-keyboard) |
 | [0747-min-cost-climbing-stairs](https://github.com/authoritydmc/DSA/tree/master/0747-min-cost-climbing-stairs) |
