@@ -1,55 +1,50 @@
 class Solution {
     public boolean canChange(String start, String target) {
-        StringBuilder s = new StringBuilder();
-        StringBuilder t = new StringBuilder();
-        Map<Character, Queue<Integer>> smap = new HashMap<>();
-        Map<Character, Queue<Integer>> tmap = new HashMap<>();
-
-        smap.put('L', new LinkedList<>());
-        smap.put('R', new LinkedList<>());
-
-        tmap.put('L', new LinkedList<>());
-        tmap.put('R', new LinkedList<>());
-        for (int i = 0; i < start.length(); i++) {
-            char c = start.charAt(i);
-            if (c == 'L') {
-                smap.get(c).add(i);
-                s.append(c);
-            } else if (c == 'R') {
-           
-                smap.get(c).add(i);
-                s.append(c);
-            }
+              // Check if the characters 'L' and 'R' in both strings are the same
+        if (!start.replace("_", "").equals(target.replace("_", ""))) {
+            return false;
         }
-
-        for (int i = 0; i < target.length(); i++) {
-            char c = target.charAt(i);
-            if (c == 'L') {
-                tmap.get(c).add(i);
-                t.append(c);
-            } else if (c == 'R') {
-                tmap.get(c).add(i);
-                t.append(c);
+        
+        int n = start.length();
+        int i = 0, j = 0;
+        
+        while (i < n && j < n) {
+            // Skip blanks in both strings
+            while (i < n && start.charAt(i) == '_') {
+                i++;
             }
-        }
-
-        if (s.toString().equals(t.toString())) {
-            Queue<Integer> sL = smap.get('L');
-            Queue<Integer> tL = tmap.get('L');
-            Queue<Integer> sR = smap.get('R');
-            Queue<Integer> tR = tmap.get('R');
-            // match for all L in s should not be indexed less than L in targets..
-            while (true) {
-                if (sL.isEmpty() && tL.isEmpty() && sR.isEmpty() && tR.isEmpty())
-                    return true;
-                if (!sL.isEmpty() && sL.poll() < tL.poll())
-                    return false;
-                if (!sR.isEmpty() &&  sR.poll() > tR.poll())
-                    return false;
-                
+            while (j < n && target.charAt(j) == '_') {
+                j++;
             }
             
+            // If both pointers reach the end, the transformation is valid
+            if (i == n && j == n) {
+                return true;
+            }
+            
+            // If one reaches the end but the other doesn't, return false
+            if (i == n || j == n) {
+                return false;
+            }
+            
+            // The characters at i and j must match
+            if (start.charAt(i) != target.charAt(j)) {
+                return false;
+            }
+            
+            // Check movement constraints for 'L' and 'R'
+            if (start.charAt(i) == 'L' && i < j) { // 'L' cannot move right
+                return false;
+            }
+            if (start.charAt(i) == 'R' && i > j) { // 'R' cannot move left
+                return false;
+            }
+            
+            // Move both pointers
+            i++;
+            j++;
         }
-        return false;
+        
+        return true;
     }
 }
