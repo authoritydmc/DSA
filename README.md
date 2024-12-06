@@ -121,6 +121,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/authoritydmc/DSA/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
 | [2398-check-if-matrix-is-x-matrix](https://github.com/authoritydmc/DSA/tree/master/2398-check-if-matrix-is-x-matrix) |
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/authoritydmc/DSA/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
+| [2640-maximum-number-of-integers-to-choose-from-a-range-i](https://github.com/authoritydmc/DSA/tree/master/2640-maximum-number-of-integers-to-choose-from-a-range-i) |
 | [2711-minimum-time-to-visit-a-cell-in-a-grid](https://github.com/authoritydmc/DSA/tree/master/2711-minimum-time-to-visit-a-cell-in-a-grid) |
 | [3034-points-that-intersect-with-cars](https://github.com/authoritydmc/DSA/tree/master/3034-points-that-intersect-with-cars) |
 | [3188-find-champion-i](https://github.com/authoritydmc/DSA/tree/master/3188-find-champion-i) |
@@ -137,6 +138,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/authoritydmc/DSA/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0605-can-place-flowers](https://github.com/authoritydmc/DSA/tree/master/0605-can-place-flowers) |
 | [2089-maximum-matrix-sum](https://github.com/authoritydmc/DSA/tree/master/2089-maximum-matrix-sum) |
+| [2640-maximum-number-of-integers-to-choose-from-a-range-i](https://github.com/authoritydmc/DSA/tree/master/2640-maximum-number-of-integers-to-choose-from-a-range-i) |
 ## Hash Table
 |  |
 | ------- |
@@ -167,6 +169,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/authoritydmc/DSA/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/authoritydmc/DSA/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [2599-take-k-of-each-character-from-left-and-right](https://github.com/authoritydmc/DSA/tree/master/2599-take-k-of-each-character-from-left-and-right) |
+| [2640-maximum-number-of-integers-to-choose-from-a-range-i](https://github.com/authoritydmc/DSA/tree/master/2640-maximum-number-of-integers-to-choose-from-a-range-i) |
 | [3034-points-that-intersect-with-cars](https://github.com/authoritydmc/DSA/tree/master/3034-points-that-intersect-with-cars) |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/authoritydmc/DSA/tree/master/3629-total-characters-in-string-after-transformations-i) |
 ## Counting
@@ -238,6 +241,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0748-largest-number-at-least-twice-of-others](https://github.com/authoritydmc/DSA/tree/master/0748-largest-number-at-least-twice-of-others) |
 | [1217-relative-sort-array](https://github.com/authoritydmc/DSA/tree/master/1217-relative-sort-array) |
 | [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/authoritydmc/DSA/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
+| [2640-maximum-number-of-integers-to-choose-from-a-range-i](https://github.com/authoritydmc/DSA/tree/master/2640-maximum-number-of-integers-to-choose-from-a-range-i) |
 | [2887-sort-vowels-in-a-string](https://github.com/authoritydmc/DSA/tree/master/2887-sort-vowels-in-a-string) |
 ## Memoization
 |  |
@@ -375,6 +379,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/authoritydmc/DSA/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/authoritydmc/DSA/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0209-minimum-size-subarray-sum](https://github.com/authoritydmc/DSA/tree/master/0209-minimum-size-subarray-sum) |
+| [2640-maximum-number-of-integers-to-choose-from-a-range-i](https://github.com/authoritydmc/DSA/tree/master/2640-maximum-number-of-integers-to-choose-from-a-range-i) |
 ## Prefix Sum
 |  |
 | ------- |
