@@ -128,6 +128,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3034-points-that-intersect-with-cars](https://github.com/authoritydmc/DSA/tree/master/3034-points-that-intersect-with-cars) |
 | [3188-find-champion-i](https://github.com/authoritydmc/DSA/tree/master/3188-find-champion-i) |
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/authoritydmc/DSA/tree/master/3309-count-prefix-and-suffix-pairs-i) |
+| [3427-special-array-ii](https://github.com/authoritydmc/DSA/tree/master/3427-special-array-ii) |
 | [3476-find-minimum-operations-to-make-all-elements-divisible-by-three](https://github.com/authoritydmc/DSA/tree/master/3476-find-minimum-operations-to-make-all-elements-divisible-by-three) |
 | [3517-shortest-distance-after-road-addition-queries-i](https://github.com/authoritydmc/DSA/tree/master/3517-shortest-distance-after-road-addition-queries-i) |
 | [3525-maximum-energy-boost-from-two-drinks](https://github.com/authoritydmc/DSA/tree/master/3525-maximum-energy-boost-from-two-drinks) |
@@ -392,12 +393,14 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1335-maximum-candies-allocated-to-k-children](https://github.com/authoritydmc/DSA/tree/master/1335-maximum-candies-allocated-to-k-children) |
 | [1886-minimum-limit-of-balls-in-a-bag](https://github.com/authoritydmc/DSA/tree/master/1886-minimum-limit-of-balls-in-a-bag) |
 | [2640-maximum-number-of-integers-to-choose-from-a-range-i](https://github.com/authoritydmc/DSA/tree/master/2640-maximum-number-of-integers-to-choose-from-a-range-i) |
+| [3427-special-array-ii](https://github.com/authoritydmc/DSA/tree/master/3427-special-array-ii) |
 ## Prefix Sum
 |  |
 | ------- |
 | [0209-minimum-size-subarray-sum](https://github.com/authoritydmc/DSA/tree/master/0209-minimum-size-subarray-sum) |
 | [0238-product-of-array-except-self](https://github.com/authoritydmc/DSA/tree/master/0238-product-of-array-except-self) |
 | [3034-points-that-intersect-with-cars](https://github.com/authoritydmc/DSA/tree/master/3034-points-that-intersect-with-cars) |
+| [3427-special-array-ii](https://github.com/authoritydmc/DSA/tree/master/3427-special-array-ii) |
 ## Binary Search Tree
 |  |
 | ------- |
