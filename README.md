@@ -75,6 +75,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0036-valid-sudoku](https://github.com/authoritydmc/DSA/tree/master/0036-valid-sudoku) |
 | [0041-first-missing-positive](https://github.com/authoritydmc/DSA/tree/master/0041-first-missing-positive) |
 | [0045-jump-game-ii](https://github.com/authoritydmc/DSA/tree/master/0045-jump-game-ii) |
+| [0046-permutations](https://github.com/authoritydmc/DSA/tree/master/0046-permutations) |
 | [0049-group-anagrams](https://github.com/authoritydmc/DSA/tree/master/0049-group-anagrams) |
 | [0055-jump-game](https://github.com/authoritydmc/DSA/tree/master/0055-jump-game) |
 | [0056-merge-intervals](https://github.com/authoritydmc/DSA/tree/master/0056-merge-intervals) |
@@ -433,6 +434,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Backtracking
 |  |
 | ------- |
+| [0046-permutations](https://github.com/authoritydmc/DSA/tree/master/0046-permutations) |
 | [0078-subsets](https://github.com/authoritydmc/DSA/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/authoritydmc/DSA/tree/master/0090-subsets-ii) |
 | [0494-target-sum](https://github.com/authoritydmc/DSA/tree/master/0494-target-sum) |
