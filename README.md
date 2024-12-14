@@ -169,6 +169,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0347-top-k-frequent-elements](https://github.com/authoritydmc/DSA/tree/master/0347-top-k-frequent-elements) |
 | [0383-ransom-note](https://github.com/authoritydmc/DSA/tree/master/0383-ransom-note) |
 | [0387-first-unique-character-in-a-string](https://github.com/authoritydmc/DSA/tree/master/0387-first-unique-character-in-a-string) |
+| [0398-random-pick-index](https://github.com/authoritydmc/DSA/tree/master/0398-random-pick-index) |
 | [0496-next-greater-element-i](https://github.com/authoritydmc/DSA/tree/master/0496-next-greater-element-i) |
 | [0782-jewels-and-stones](https://github.com/authoritydmc/DSA/tree/master/0782-jewels-and-stones) |
 | [0829-subdomain-visit-count](https://github.com/authoritydmc/DSA/tree/master/0829-subdomain-visit-count) |
@@ -227,6 +228,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0070-climbing-stairs](https://github.com/authoritydmc/DSA/tree/master/0070-climbing-stairs) |
 | [0202-happy-number](https://github.com/authoritydmc/DSA/tree/master/0202-happy-number) |
 | [0382-linked-list-random-node](https://github.com/authoritydmc/DSA/tree/master/0382-linked-list-random-node) |
+| [0398-random-pick-index](https://github.com/authoritydmc/DSA/tree/master/0398-random-pick-index) |
 | [0650-2-keys-keyboard](https://github.com/authoritydmc/DSA/tree/master/0650-2-keys-keyboard) |
 | [1086-divisor-game](https://github.com/authoritydmc/DSA/tree/master/1086-divisor-game) |
 | [1146-greatest-common-divisor-of-strings](https://github.com/authoritydmc/DSA/tree/master/1146-greatest-common-divisor-of-strings) |
@@ -511,10 +513,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0382-linked-list-random-node](https://github.com/authoritydmc/DSA/tree/master/0382-linked-list-random-node) |
+| [0398-random-pick-index](https://github.com/authoritydmc/DSA/tree/master/0398-random-pick-index) |
 ## Randomized
 |  |
 | ------- |
 | [0382-linked-list-random-node](https://github.com/authoritydmc/DSA/tree/master/0382-linked-list-random-node) |
+| [0398-random-pick-index](https://github.com/authoritydmc/DSA/tree/master/0398-random-pick-index) |
 ## Graph
 |  |
 | ------- |
