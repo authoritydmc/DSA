@@ -100,6 +100,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0414-third-maximum-number](https://github.com/authoritydmc/DSA/tree/master/0414-third-maximum-number) |
 | [0494-target-sum](https://github.com/authoritydmc/DSA/tree/master/0494-target-sum) |
 | [0496-next-greater-element-i](https://github.com/authoritydmc/DSA/tree/master/0496-next-greater-element-i) |
+| [0503-next-greater-element-ii](https://github.com/authoritydmc/DSA/tree/master/0503-next-greater-element-ii) |
 | [0605-can-place-flowers](https://github.com/authoritydmc/DSA/tree/master/0605-can-place-flowers) |
 | [0643-maximum-average-subarray-i](https://github.com/authoritydmc/DSA/tree/master/0643-maximum-average-subarray-i) |
 | [0747-min-cost-climbing-stairs](https://github.com/authoritydmc/DSA/tree/master/0747-min-cost-climbing-stairs) |
@@ -334,6 +335,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/authoritydmc/DSA/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0155-min-stack](https://github.com/authoritydmc/DSA/tree/master/0155-min-stack) |
 | [0496-next-greater-element-i](https://github.com/authoritydmc/DSA/tree/master/0496-next-greater-element-i) |
+| [0503-next-greater-element-ii](https://github.com/authoritydmc/DSA/tree/master/0503-next-greater-element-ii) |
 ## Linked List
 |  |
 | ------- |
@@ -540,4 +542,5 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0496-next-greater-element-i](https://github.com/authoritydmc/DSA/tree/master/0496-next-greater-element-i) |
+| [0503-next-greater-element-ii](https://github.com/authoritydmc/DSA/tree/master/0503-next-greater-element-ii) |
 <!---LeetCode Topics End-->
