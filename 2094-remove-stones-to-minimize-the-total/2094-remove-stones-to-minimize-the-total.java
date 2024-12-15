@@ -11,7 +11,7 @@ class Solution {
 
         while (k-- > 0) {
             int r = pq.poll();
-            int n = (int) Math.floor(r / 2);
+            int n = r / 2;
             s-=n;
             // System.out.println("replaced "+r+" with "+(r-n));
             pq.add(r - n);
