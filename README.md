@@ -141,6 +141,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3476-find-minimum-operations-to-make-all-elements-divisible-by-three](https://github.com/authoritydmc/DSA/tree/master/3476-find-minimum-operations-to-make-all-elements-divisible-by-three) |
 | [3517-shortest-distance-after-road-addition-queries-i](https://github.com/authoritydmc/DSA/tree/master/3517-shortest-distance-after-road-addition-queries-i) |
 | [3525-maximum-energy-boost-from-two-drinks](https://github.com/authoritydmc/DSA/tree/master/3525-maximum-energy-boost-from-two-drinks) |
+| [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/authoritydmc/DSA/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 | [3581-the-two-sneaky-numbers-of-digitville](https://github.com/authoritydmc/DSA/tree/master/3581-the-two-sneaky-numbers-of-digitville) |
 ## Greedy
 |  |
@@ -243,6 +244,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2812-find-the-maximum-achievable-number](https://github.com/authoritydmc/DSA/tree/master/2812-find-the-maximum-achievable-number) |
 | [2903-insert-greatest-common-divisors-in-linked-list](https://github.com/authoritydmc/DSA/tree/master/2903-insert-greatest-common-divisors-in-linked-list) |
 | [3476-find-minimum-operations-to-make-all-elements-divisible-by-three](https://github.com/authoritydmc/DSA/tree/master/3476-find-minimum-operations-to-make-all-elements-divisible-by-three) |
+| [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/authoritydmc/DSA/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 | [3581-the-two-sneaky-numbers-of-digitville](https://github.com/authoritydmc/DSA/tree/master/3581-the-two-sneaky-numbers-of-digitville) |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/authoritydmc/DSA/tree/master/3629-total-characters-in-string-after-transformations-i) |
 ## Queue
@@ -408,6 +410,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2343-count-unguarded-cells-in-the-grid](https://github.com/authoritydmc/DSA/tree/master/2343-count-unguarded-cells-in-the-grid) |
 | [2695-find-score-of-an-array-after-marking-all-elements](https://github.com/authoritydmc/DSA/tree/master/2695-find-score-of-an-array-after-marking-all-elements) |
 | [3540-hash-divided-string](https://github.com/authoritydmc/DSA/tree/master/3540-hash-divided-string) |
+| [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/authoritydmc/DSA/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 ## Binary Search
 |  |
 | ------- |
@@ -476,6 +479,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2616-maximal-score-after-applying-k-operations](https://github.com/authoritydmc/DSA/tree/master/2616-maximal-score-after-applying-k-operations) |
 | [2695-find-score-of-an-array-after-marking-all-elements](https://github.com/authoritydmc/DSA/tree/master/2695-find-score-of-an-array-after-marking-all-elements) |
 | [2711-minimum-time-to-visit-a-cell-in-a-grid](https://github.com/authoritydmc/DSA/tree/master/2711-minimum-time-to-visit-a-cell-in-a-grid) |
+| [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/authoritydmc/DSA/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 ## Quickselect
 |  |
 | ------- |
