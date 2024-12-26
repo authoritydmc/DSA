@@ -1,5 +1,5 @@
 class Solution {
-    private int minSolve(int[][] grid, int i, int j, Map<String, Integer> memo) {
+    private int minSolve(int[][] grid, int i, int j, int[][] memo) {
         if (i >= grid.length || j >= grid[0].length) {
             return Integer.MAX_VALUE;
         }
@@ -7,17 +7,19 @@ class Solution {
             // valid end reached just reutrn the ans:::
             return grid[i][j];
         }
-        String key = i + ":" + j;
-        if (memo.containsKey(key))
-            return memo.get(key);
+        
+       if (memo[i][j]!=-1)
+       return memo[i][j];
         int move_down = minSolve(grid, i + 1, j, memo);
         int move_right = minSolve(grid, i, j + 1, memo);
-        memo.put(key, grid[i][j] + Math.min(move_down, move_right));
-        return memo.get(key);
+        memo[i][j]=grid[i][j] + Math.min(move_down, move_right);
+        return memo[i][j];
     }
 
     public int minPathSum(int[][] grid) {
-        Map<String, Integer> memo = new HashMap<>();
+        int[][] memo = new int[grid.length][grid[0].length];
+        for (int i = 0; i < grid.length; i++)
+            Arrays.fill(memo[i], -1);
         return minSolve(grid, 0, 0, memo);
     }
 }
