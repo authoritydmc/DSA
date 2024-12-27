@@ -16,7 +16,7 @@ class Solution {
     private int betterApproach(int[] values) {
         // Optimized approach O(n)
         int max = 0;
-        int maxSoFar = values[0]; // Initial maxSoFar (values[j] + j)
+        int maxSoFar = values[0]; // Initial maxSoFar (values[0] + 0)
 
         for (int j = 1; j < values.length; j++) {
             // Calculate the current score
