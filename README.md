@@ -112,6 +112,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0829-subdomain-visit-count](https://github.com/authoritydmc/DSA/tree/master/0829-subdomain-visit-count) |
 | [0837-most-common-word](https://github.com/authoritydmc/DSA/tree/master/0837-most-common-word) |
 | [0965-unique-email-addresses](https://github.com/authoritydmc/DSA/tree/master/0965-unique-email-addresses) |
+| [1036-rotting-oranges](https://github.com/authoritydmc/DSA/tree/master/1036-rotting-oranges) |
 | [1063-best-sightseeing-pair](https://github.com/authoritydmc/DSA/tree/master/1063-best-sightseeing-pair) |
 | [1127-last-stone-weight](https://github.com/authoritydmc/DSA/tree/master/1127-last-stone-weight) |
 | [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/authoritydmc/DSA/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
@@ -299,6 +300,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0515-find-largest-value-in-each-tree-row](https://github.com/authoritydmc/DSA/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0787-sliding-puzzle](https://github.com/authoritydmc/DSA/tree/master/0787-sliding-puzzle) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/authoritydmc/DSA/tree/master/0803-cheapest-flights-within-k-stops) |
+| [1036-rotting-oranges](https://github.com/authoritydmc/DSA/tree/master/1036-rotting-oranges) |
 | [2038-nearest-exit-from-entrance-in-maze](https://github.com/authoritydmc/DSA/tree/master/2038-nearest-exit-from-entrance-in-maze) |
 | [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/authoritydmc/DSA/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/authoritydmc/DSA/tree/master/2493-reverse-odd-levels-of-binary-tree) |
@@ -399,6 +401,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0036-valid-sudoku](https://github.com/authoritydmc/DSA/tree/master/0036-valid-sudoku) |
 | [0064-minimum-path-sum](https://github.com/authoritydmc/DSA/tree/master/0064-minimum-path-sum) |
 | [0787-sliding-puzzle](https://github.com/authoritydmc/DSA/tree/master/0787-sliding-puzzle) |
+| [1036-rotting-oranges](https://github.com/authoritydmc/DSA/tree/master/1036-rotting-oranges) |
 | [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/authoritydmc/DSA/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
 | [1572-subrectangle-queries](https://github.com/authoritydmc/DSA/tree/master/1572-subrectangle-queries) |
 | [1972-rotating-the-box](https://github.com/authoritydmc/DSA/tree/master/1972-rotating-the-box) |
