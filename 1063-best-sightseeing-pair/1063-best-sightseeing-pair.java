@@ -16,13 +16,13 @@ class Solution {
     private int betterApproach(int[] values) {
         // Optimized approach O(n)
         int max = 0;
-        int maxSoFar = values[0]; // Initial maxSoFar (values[i] + i)
+        int maxSoFar = values[0]; // Initial maxSoFar (values[j] + j)
 
-        for (int i = 1; i < values.length; i++) {
+        for (int j = 1; j < values.length; j++) {
             // Calculate the current score
-            max = Math.max(max, maxSoFar + values[i] - i);
+            max = Math.max(max, maxSoFar + values[j] - j);
             // Update maxSoFar for the next iteration
-            maxSoFar = Math.max(maxSoFar, values[i] + i);
+            maxSoFar = Math.max(maxSoFar, values[j] + j);
         }
 
         return max;
