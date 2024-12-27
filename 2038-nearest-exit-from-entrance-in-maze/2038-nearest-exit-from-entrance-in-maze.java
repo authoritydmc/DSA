@@ -22,8 +22,7 @@ class Solution {
         Queue<int[]> q = new LinkedList<>(); // int [] is row,col,distance indices
 
         q.add(new int[] { entrance[0], entrance[1], 0 });
-        Set<String> visited = new HashSet<>();
-        visited.add(entrance[0] + ":" + entrance[1]);
+        maze[entrance[0]][entrance[1]]='v'; //v for visited ::: 
         while (!q.isEmpty()) {
             int[] cur = q.poll();
         //    System.out.println("Current loc is "+Arrays.toString(cur));
@@ -34,11 +33,8 @@ class Solution {
 
             // get all valid neighbours::
             for (int[] validNeighbours : getNeighbours(maze, cur)) {
-                String key = validNeighbours[0] + ":" + validNeighbours[1];
-                if (visited.contains(key))
-                    continue;
+                maze[validNeighbours[0]][validNeighbours[1]]='v';
                 q.add(validNeighbours);
-                visited.add(key);
             }
         }
 
