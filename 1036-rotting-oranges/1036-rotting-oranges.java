@@ -60,7 +60,7 @@ class Solution {
         // Integer.MAX_VALUE is found directly return -1 as we know all fresh oranges
         // are not rotten :::
         for (int[] row : dist) {
-            System.out.println("dist arr : "+Arrays.toString(row));
+         //   System.out.println("dist arr : "+Arrays.toString(row));
             for (int cell : row) {
                 // fresh orange occured :::
                 if (cell == Integer.MAX_VALUE)
