@@ -118,6 +118,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1217-relative-sort-array](https://github.com/authoritydmc/DSA/tree/master/1217-relative-sort-array) |
 | [1319-unique-number-of-occurrences](https://github.com/authoritydmc/DSA/tree/master/1319-unique-number-of-occurrences) |
 | [1335-maximum-candies-allocated-to-k-children](https://github.com/authoritydmc/DSA/tree/master/1335-maximum-candies-allocated-to-k-children) |
+| [1392-find-the-difference-of-two-arrays](https://github.com/authoritydmc/DSA/tree/master/1392-find-the-difference-of-two-arrays) |
 | [1528-kids-with-the-greatest-number-of-candies](https://github.com/authoritydmc/DSA/tree/master/1528-kids-with-the-greatest-number-of-candies) |
 | [1572-subrectangle-queries](https://github.com/authoritydmc/DSA/tree/master/1572-subrectangle-queries) |
 | [1635-number-of-good-pairs](https://github.com/authoritydmc/DSA/tree/master/1635-number-of-good-pairs) |
@@ -189,6 +190,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/authoritydmc/DSA/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
 | [1217-relative-sort-array](https://github.com/authoritydmc/DSA/tree/master/1217-relative-sort-array) |
 | [1319-unique-number-of-occurrences](https://github.com/authoritydmc/DSA/tree/master/1319-unique-number-of-occurrences) |
+| [1392-find-the-difference-of-two-arrays](https://github.com/authoritydmc/DSA/tree/master/1392-find-the-difference-of-two-arrays) |
 | [1635-number-of-good-pairs](https://github.com/authoritydmc/DSA/tree/master/1635-number-of-good-pairs) |
 | [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/authoritydmc/DSA/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
 | [2300-construct-string-with-repeat-limit](https://github.com/authoritydmc/DSA/tree/master/2300-construct-string-with-repeat-limit) |
