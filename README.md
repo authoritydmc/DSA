@@ -283,6 +283,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0748-largest-number-at-least-twice-of-others](https://github.com/authoritydmc/DSA/tree/master/0748-largest-number-at-least-twice-of-others) |
 | [1217-relative-sort-array](https://github.com/authoritydmc/DSA/tree/master/1217-relative-sort-array) |
 | [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/authoritydmc/DSA/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
+| [2327-largest-number-after-digit-swaps-by-parity](https://github.com/authoritydmc/DSA/tree/master/2327-largest-number-after-digit-swaps-by-parity) |
 | [2640-maximum-number-of-integers-to-choose-from-a-range-i](https://github.com/authoritydmc/DSA/tree/master/2640-maximum-number-of-integers-to-choose-from-a-range-i) |
 | [2695-find-score-of-an-array-after-marking-all-elements](https://github.com/authoritydmc/DSA/tree/master/2695-find-score-of-an-array-after-marking-all-elements) |
 | [2887-sort-vowels-in-a-string](https://github.com/authoritydmc/DSA/tree/master/2887-sort-vowels-in-a-string) |
@@ -514,6 +515,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2094-remove-stones-to-minimize-the-total](https://github.com/authoritydmc/DSA/tree/master/2094-remove-stones-to-minimize-the-total) |
 | [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/authoritydmc/DSA/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
 | [2300-construct-string-with-repeat-limit](https://github.com/authoritydmc/DSA/tree/master/2300-construct-string-with-repeat-limit) |
+| [2327-largest-number-after-digit-swaps-by-parity](https://github.com/authoritydmc/DSA/tree/master/2327-largest-number-after-digit-swaps-by-parity) |
 | [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/authoritydmc/DSA/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
 | [2616-maximal-score-after-applying-k-operations](https://github.com/authoritydmc/DSA/tree/master/2616-maximal-score-after-applying-k-operations) |
 | [2695-find-score-of-an-array-after-marking-all-elements](https://github.com/authoritydmc/DSA/tree/master/2695-find-score-of-an-array-after-marking-all-elements) |
