@@ -5,8 +5,6 @@ class Solution {
         int targetLength = target.length();
         final int MOD = 1000000007;
 
-        // Step 1: Calculate frequency of each character at every index in
-        // "words".
         int[][] charFrequency = new int[wordLength][26];
         for (String word : words) {
             for (int j = 0; j < wordLength; ++j) {
@@ -14,33 +12,28 @@ class Solution {
             }
         }
 
-        // Step 2: Initialize a DP table.
-        long[][] dp = new long[wordLength + 1][targetLength + 1];
+        Long[][] memo = new Long[wordLength][targetLength];
+        return (int) countWays(0, 0, charFrequency, target, memo, MOD);
+    }
 
-        // Base case: There is one way to form an empty target string.
-        for (int currWord = 0; currWord <= wordLength; ++currWord) {
-            dp[currWord][0] = 1;
+    private long countWays(int currWord, int currTarget, int[][] charFrequency, String target, Long[][] memo, int MOD) {
+        if (currTarget == target.length()) {
+            return 1;
         }
 
-        // Step 3: Fill the DP table.
-        for (int currWord = 1; currWord <= wordLength; ++currWord) {
-            for (int currTarget = 1; currTarget <= targetLength; ++currTarget) {
-                // Carry over the previous value (not using this index of
-                // "words").
-                dp[currWord][currTarget] = dp[currWord - 1][currTarget];
-
-                // Add ways using the current index of "words" if the characters
-                // match.
-                int curPos = target.charAt(currTarget - 1) - 'a';
-                dp[currWord][currTarget] +=
-                    (charFrequency[currWord - 1][curPos] *
-                        dp[currWord - 1][currTarget - 1]) %
-                    MOD;
-                dp[currWord][currTarget] %= MOD;
-            }
+        if (currWord == charFrequency.length) {
+            return 0;
         }
 
-        // Step 4: The result is in dp[wordLength][targetLength].
-        return (int) dp[wordLength][targetLength];
+        if (memo[currWord][currTarget] != null) {
+            return memo[currWord][currTarget];
+        }
+
+        long ways = countWays(currWord + 1, currTarget, charFrequency, target, memo, MOD);
+        int curPos = target.charAt(currTarget) - 'a';
+        ways += (charFrequency[currWord][curPos] * countWays(currWord + 1, currTarget + 1, charFrequency, target, memo, MOD)) % MOD;
+        ways %= MOD;
+
+        return memo[currWord][currTarget] = ways;
     }
 }
