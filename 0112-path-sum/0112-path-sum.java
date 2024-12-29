@@ -17,23 +17,11 @@ class Solution {
     private boolean solve(TreeNode root, int target) {
         if (root == null)
             return false;
-        if (root.val == target && root.left==null && root.right==null)
-            return true;
+        if (root.left == null && root.right == null)
+            return root.val == target;
+        int modifiedTarget = target - root.val;
+        return  solve(root.left, modifiedTarget) || solve(root.right, modifiedTarget);
 
-            boolean leftSide=false;
-            boolean rightSide=false;
-            int modifiedTarget=target-root.val;
-            System.out.println("now find for "+modifiedTarget +" cur root val "+root.val);
-            if(root.left!=null)
-            {
-                leftSide=solve(root.left,modifiedTarget);
-            }
-            if(root.right!=null)
-            {
-              rightSide=  solve(root.right,modifiedTarget);
-            }
-            return leftSide||rightSide;
-           
     }
 
     public boolean hasPathSum(TreeNode root, int targetSum) {
