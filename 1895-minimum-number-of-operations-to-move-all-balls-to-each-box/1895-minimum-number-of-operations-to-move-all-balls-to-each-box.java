@@ -23,23 +23,23 @@ class Solution {
         int[] res = new int[n];
 
         // Left pass: Calculate moves to bring '1's from left to each index
-        int leftMoves = 0, leftCount = 0;
+        int leftMoves = 0, leftBallCount = 0;
         for (int i = 0; i < n; i++) {
             res[i] = leftMoves;
             if (boxes[i] == '1') {
-                leftCount++;
+                leftBallCount++;
             }
-            leftMoves += leftCount;
+            leftMoves += leftBallCount;
         }
 
         // Right pass: Calculate moves to bring '1's from right to each index
-        int rightMoves = 0, rightCount = 0;
+        int rightMoves = 0, rightBallCount = 0;
         for (int i = n - 1; i >= 0; i--) {
             res[i] += rightMoves;
             if (boxes[i] == '1') {
-                rightCount++;
+                rightBallCount++;
             }
-            rightMoves += rightCount;
+            rightMoves += rightBallCount;
         }
 
         return res;
