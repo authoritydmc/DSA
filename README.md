@@ -61,6 +61,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1744-number-of-ways-to-form-a-target-string-given-a-dictionary](https://github.com/authoritydmc/DSA/tree/master/1744-number-of-ways-to-form-a-target-string-given-a-dictionary) |
 | [1894-merge-strings-alternately](https://github.com/authoritydmc/DSA/tree/master/1894-merge-strings-alternately) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/authoritydmc/DSA/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
+| [2221-check-if-a-parentheses-string-can-be-valid](https://github.com/authoritydmc/DSA/tree/master/2221-check-if-a-parentheses-string-can-be-valid) |
 | [2232-adding-spaces-to-a-string](https://github.com/authoritydmc/DSA/tree/master/2232-adding-spaces-to-a-string) |
 | [2300-construct-string-with-repeat-limit](https://github.com/authoritydmc/DSA/tree/master/2300-construct-string-with-repeat-limit) |
 | [2414-move-pieces-to-obtain-a-string](https://github.com/authoritydmc/DSA/tree/master/2414-move-pieces-to-obtain-a-string) |
@@ -176,6 +177,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1502-construct-k-palindrome-strings](https://github.com/authoritydmc/DSA/tree/master/1502-construct-k-palindrome-strings) |
 | [2089-maximum-matrix-sum](https://github.com/authoritydmc/DSA/tree/master/2089-maximum-matrix-sum) |
 | [2094-remove-stones-to-minimize-the-total](https://github.com/authoritydmc/DSA/tree/master/2094-remove-stones-to-minimize-the-total) |
+| [2221-check-if-a-parentheses-string-can-be-valid](https://github.com/authoritydmc/DSA/tree/master/2221-check-if-a-parentheses-string-can-be-valid) |
 | [2300-construct-string-with-repeat-limit](https://github.com/authoritydmc/DSA/tree/master/2300-construct-string-with-repeat-limit) |
 | [2616-maximal-score-after-applying-k-operations](https://github.com/authoritydmc/DSA/tree/master/2616-maximal-score-after-applying-k-operations) |
 | [2640-maximum-number-of-integers-to-choose-from-a-range-i](https://github.com/authoritydmc/DSA/tree/master/2640-maximum-number-of-integers-to-choose-from-a-range-i) |
@@ -406,6 +408,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0496-next-greater-element-i](https://github.com/authoritydmc/DSA/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/authoritydmc/DSA/tree/master/0503-next-greater-element-ii) |
 | [0739-daily-temperatures](https://github.com/authoritydmc/DSA/tree/master/0739-daily-temperatures) |
+| [2221-check-if-a-parentheses-string-can-be-valid](https://github.com/authoritydmc/DSA/tree/master/2221-check-if-a-parentheses-string-can-be-valid) |
 ## Linked List
 |  |
 | ------- |
