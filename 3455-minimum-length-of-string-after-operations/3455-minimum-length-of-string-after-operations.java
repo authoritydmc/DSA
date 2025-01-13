@@ -1,15 +1,16 @@
 class Solution {
     public int minimumLength(String s) {
-       Map<Character,Integer> imap=new HashMap<>();
+      int [] imap=new int[26];
        for(int i=0;i<s.length();i++)
        {
-        imap.merge(s.charAt(i),1,Integer::sum);
+        imap[s.charAt(i)-'a']++;
        } 
        int cnt=0;
 
-        for(int q:imap.values())
+        for(int q:imap)
         {
-           cnt+=q>2?q%2==0?2:1:q;
+            if(q!=0)
+           cnt+=q%2==0?2:1;
         }
 
    
