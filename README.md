@@ -180,6 +180,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2094-remove-stones-to-minimize-the-total](https://github.com/authoritydmc/DSA/tree/master/2094-remove-stones-to-minimize-the-total) |
 | [2221-check-if-a-parentheses-string-can-be-valid](https://github.com/authoritydmc/DSA/tree/master/2221-check-if-a-parentheses-string-can-be-valid) |
 | [2300-construct-string-with-repeat-limit](https://github.com/authoritydmc/DSA/tree/master/2300-construct-string-with-repeat-limit) |
+| [2509-minimize-xor](https://github.com/authoritydmc/DSA/tree/master/2509-minimize-xor) |
 | [2616-maximal-score-after-applying-k-operations](https://github.com/authoritydmc/DSA/tree/master/2616-maximal-score-after-applying-k-operations) |
 | [2640-maximum-number-of-integers-to-choose-from-a-range-i](https://github.com/authoritydmc/DSA/tree/master/2640-maximum-number-of-integers-to-choose-from-a-range-i) |
 ## Hash Table
@@ -634,6 +635,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0078-subsets](https://github.com/authoritydmc/DSA/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/authoritydmc/DSA/tree/master/0090-subsets-ii) |
+| [2509-minimize-xor](https://github.com/authoritydmc/DSA/tree/master/2509-minimize-xor) |
 ## Monotonic Stack
 |  |
 | ------- |
