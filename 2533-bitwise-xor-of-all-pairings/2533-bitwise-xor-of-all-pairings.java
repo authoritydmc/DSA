@@ -32,6 +32,7 @@ class Solution {
 
         // Calculate the result based on lengths
         int result = 0;
+        //incase of even a^a will cancel out themselves ::: 
         if (len1 % 2 != 0) {
             result ^= xor2; // If nums1 length is odd, nums2 contributes
         }
