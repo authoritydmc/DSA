@@ -109,6 +109,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0307-range-sum-query-mutable](https://github.com/authoritydmc/DSA/tree/master/0307-range-sum-query-mutable) |
 | [0322-coin-change](https://github.com/authoritydmc/DSA/tree/master/0322-coin-change) |
 | [0347-top-k-frequent-elements](https://github.com/authoritydmc/DSA/tree/master/0347-top-k-frequent-elements) |
+| [0407-trapping-rain-water-ii](https://github.com/authoritydmc/DSA/tree/master/0407-trapping-rain-water-ii) |
 | [0414-third-maximum-number](https://github.com/authoritydmc/DSA/tree/master/0414-third-maximum-number) |
 | [0494-target-sum](https://github.com/authoritydmc/DSA/tree/master/0494-target-sum) |
 | [0496-next-greater-element-i](https://github.com/authoritydmc/DSA/tree/master/0496-next-greater-element-i) |
@@ -327,6 +328,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0112-path-sum](https://github.com/authoritydmc/DSA/tree/master/0112-path-sum) |
 | [0226-invert-binary-tree](https://github.com/authoritydmc/DSA/tree/master/0226-invert-binary-tree) |
 | [0322-coin-change](https://github.com/authoritydmc/DSA/tree/master/0322-coin-change) |
+| [0407-trapping-rain-water-ii](https://github.com/authoritydmc/DSA/tree/master/0407-trapping-rain-water-ii) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/authoritydmc/DSA/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0787-sliding-puzzle](https://github.com/authoritydmc/DSA/tree/master/0787-sliding-puzzle) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/authoritydmc/DSA/tree/master/0803-cheapest-flights-within-k-stops) |
@@ -441,6 +443,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0036-valid-sudoku](https://github.com/authoritydmc/DSA/tree/master/0036-valid-sudoku) |
 | [0064-minimum-path-sum](https://github.com/authoritydmc/DSA/tree/master/0064-minimum-path-sum) |
+| [0407-trapping-rain-water-ii](https://github.com/authoritydmc/DSA/tree/master/0407-trapping-rain-water-ii) |
 | [0787-sliding-puzzle](https://github.com/authoritydmc/DSA/tree/master/0787-sliding-puzzle) |
 | [1036-rotting-oranges](https://github.com/authoritydmc/DSA/tree/master/1036-rotting-oranges) |
 | [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/authoritydmc/DSA/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
@@ -556,6 +559,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0215-kth-largest-element-in-an-array](https://github.com/authoritydmc/DSA/tree/master/0215-kth-largest-element-in-an-array) |
 | [0239-sliding-window-maximum](https://github.com/authoritydmc/DSA/tree/master/0239-sliding-window-maximum) |
 | [0347-top-k-frequent-elements](https://github.com/authoritydmc/DSA/tree/master/0347-top-k-frequent-elements) |
+| [0407-trapping-rain-water-ii](https://github.com/authoritydmc/DSA/tree/master/0407-trapping-rain-water-ii) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/authoritydmc/DSA/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/authoritydmc/DSA/tree/master/0803-cheapest-flights-within-k-stops) |
 | [1127-last-stone-weight](https://github.com/authoritydmc/DSA/tree/master/1127-last-stone-weight) |
