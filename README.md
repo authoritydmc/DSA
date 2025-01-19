@@ -10,6 +10,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0015-3sum](https://github.com/authoritydmc/DSA/tree/master/0015-3sum) |
 | [0027-remove-element](https://github.com/authoritydmc/DSA/tree/master/0027-remove-element) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/authoritydmc/DSA/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
+| [0042-trapping-rain-water](https://github.com/authoritydmc/DSA/tree/master/0042-trapping-rain-water) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/authoritydmc/DSA/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0125-valid-palindrome](https://github.com/authoritydmc/DSA/tree/master/0125-valid-palindrome) |
 | [0141-linked-list-cycle](https://github.com/authoritydmc/DSA/tree/master/0141-linked-list-cycle) |
@@ -84,6 +85,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0027-remove-element](https://github.com/authoritydmc/DSA/tree/master/0027-remove-element) |
 | [0036-valid-sudoku](https://github.com/authoritydmc/DSA/tree/master/0036-valid-sudoku) |
 | [0041-first-missing-positive](https://github.com/authoritydmc/DSA/tree/master/0041-first-missing-positive) |
+| [0042-trapping-rain-water](https://github.com/authoritydmc/DSA/tree/master/0042-trapping-rain-water) |
 | [0045-jump-game-ii](https://github.com/authoritydmc/DSA/tree/master/0045-jump-game-ii) |
 | [0046-permutations](https://github.com/authoritydmc/DSA/tree/master/0046-permutations) |
 | [0049-group-anagrams](https://github.com/authoritydmc/DSA/tree/master/0049-group-anagrams) |
@@ -247,6 +249,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Dynamic Programming
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/authoritydmc/DSA/tree/master/0042-trapping-rain-water) |
 | [0045-jump-game-ii](https://github.com/authoritydmc/DSA/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/authoritydmc/DSA/tree/master/0055-jump-game) |
 | [0062-unique-paths](https://github.com/authoritydmc/DSA/tree/master/0062-unique-paths) |
@@ -415,6 +418,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/authoritydmc/DSA/tree/master/0020-valid-parentheses) |
+| [0042-trapping-rain-water](https://github.com/authoritydmc/DSA/tree/master/0042-trapping-rain-water) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/authoritydmc/DSA/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0155-min-stack](https://github.com/authoritydmc/DSA/tree/master/0155-min-stack) |
 | [0496-next-greater-element-i](https://github.com/authoritydmc/DSA/tree/master/0496-next-greater-element-i) |
@@ -656,6 +660,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Monotonic Stack
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/authoritydmc/DSA/tree/master/0042-trapping-rain-water) |
 | [0496-next-greater-element-i](https://github.com/authoritydmc/DSA/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/authoritydmc/DSA/tree/master/0503-next-greater-element-ii) |
 | [0739-daily-temperatures](https://github.com/authoritydmc/DSA/tree/master/0739-daily-temperatures) |
