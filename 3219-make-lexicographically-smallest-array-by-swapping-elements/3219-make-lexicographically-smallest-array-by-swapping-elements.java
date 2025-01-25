@@ -4,11 +4,10 @@ import java.util.stream.Collectors;
 class Solution {
     public int[] lexicographicallySmallestArray(int[] nums, int limit) {
         // Step 1: Sort nums to make groups
-        List<Integer> s = Arrays.stream(nums).sorted().boxed().collect(Collectors.toList());
-      //  System.out.println("Sorted list: " + s);
+        int[] sortedNums = nums.clone(); 
+        Arrays.sort(sortedNums); 
 
-        // Resultant array
-        int[] res = new int[nums.length];
+    
 
         // Maps to hold group information
         Map<Integer, Integer> grpMap = new HashMap<>();
@@ -16,11 +15,11 @@ class Solution {
         Queue<Integer> curList = null;
 
         // Step 2: Grouping logic
-        for (int i = 0; i < s.size(); i++) {
-            int current = s.get(i);
+        for (int i = 0; i < sortedNums.length; i++) {
+            int current = sortedNums[i];
 
             // Create a new group if needed
-            if (curList == null || Math.abs(s.get(i-1) - current) > limit) {
+            if (curList == null || Math.abs(sortedNums[i-1] - current) > limit) {
                 // Sort and finalize the previous group before creating a new one
                 if (curList != null) {
                     List<Integer> sortedGroup = new ArrayList<>(curList);
@@ -45,10 +44,10 @@ class Solution {
         // Step 3: Build the result array
         for (int i = 0; i < nums.length; i++) {
             int grpNo = grpMap.get(nums[i]); // Get the group's first element
-            res[i] = grps.get(grpNo).poll(); // Poll the value from the corresponding group
+            nums[i] = grps.get(grpNo).poll(); // Poll the value from the corresponding group
         }
 
-        return res;
+        return nums;
     }
 
     
