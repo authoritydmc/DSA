@@ -1,70 +1,86 @@
 class Solution {
+    private int BFS(int startNode,Map<Integer,List<Integer>> g,boolean [] visited)
+    {
 
-    private int BFS(int startNode, List<List<Integer>> reversedGraph, boolean[] visitedNodes) {
-        Queue<int[]> queue = new LinkedList<>();
-        queue.offer(new int[]{startNode, 0});
-        int maxDistance = 0;
-
-        while (!queue.isEmpty()) {
-            int[] current = queue.poll();
-            int currentNode = current[0];
-            int currentDistance = current[1];
-
-            for (int neighbor : reversedGraph.get(currentNode)) {
-                if (!visitedNodes[neighbor]) {
-                    visitedNodes[neighbor] = true;
-                    queue.offer(new int[]{neighbor, currentDistance + 1});
-                    maxDistance = Math.max(maxDistance, currentDistance + 1);
-                }
+        int maxDistance=0;
+        Queue<int [] > q=new LinkedList<>();
+        q.add(new int[]{startNode,0});
+        
+        while(!q.isEmpty())
+        {
+            int [] curNode=q.poll();
+            int dist=curNode[1];
+           
+            for(int nbr:g.getOrDefault(curNode[0],List.of()))
+            if(!visited[nbr])
+            {
+                visited[nbr]=true;
+                q.offer(new int[]{nbr,dist+1});
+                maxDistance=Math.max(maxDistance,dist+1);
             }
         }
+
         return maxDistance;
     }
-
     public int maximumInvitations(int[] favorite) {
-        int n = favorite.length;
-        List<List<Integer>> reversedGraph = new ArrayList<>();
-        for (int i = 0; i < n; i++) {
-            reversedGraph.add(new ArrayList<>());
+        int n=favorite.length;
+        //make a reverse graph first ::
+        Map<Integer,List<Integer>> g=new HashMap<>();
+
+        for(int i=0;i<n;i++)
+        {
+            //reverse graph wer are making so that 
+            int v=favorite[i];
+           g.computeIfAbsent(v,k->new ArrayList<>()).add(i);
         }
 
-        for (int i = 0; i < n; i++) {
-            reversedGraph.get(favorite[i]).add(i);
-        }
+        int longestCycleCnt=0;
+        int happyCoupleCnt=0;
 
-        int longestCycle = 0;
-        int happyCoupleCount = 0;
-        boolean[] visited = new boolean[n];
+        boolean [] visited=new boolean[n];
+        for(int i=0;i<n;i++)
+        {
+            int curNode=i;
+            int curNodeLen=0;
+            Map<Integer,Integer> nodeLenMap=new HashMap<>();
+            //till we have not found the cycle ::: 
+            while(!visited[curNode])
+            {
+                visited[curNode]=true;
+                nodeLenMap.put(curNode,curNodeLen);
+                int nextNode=favorite[curNode];
+                curNodeLen++;
+                if(nodeLenMap.get(nextNode)!=null)
+                {
+                    //we have found a cycle :: do the calculations and break;
 
-        for (int i = 0; i < n; i++) {
-            if (!visited[i]) {
-                int curNode = i;
-                int curLength = 0;
-                Map<Integer, Integer> nodeMap = new HashMap<>();
-
-                while (true) {
-                    if (visited[curNode]) break;
-                    visited[curNode] = true;
-                    nodeMap.put(curNode, curLength++);
-                    int nextNode = favorite[curNode];
-
-                    if (nodeMap.containsKey(nextNode)) {
-                        int cycleLength = curLength - nodeMap.get(nextNode);
-                        longestCycle = Math.max(longestCycle, cycleLength);
-
-                        if (cycleLength == 2) {
-                            boolean[] bfsVisited = new boolean[n];
-                            bfsVisited[curNode] = bfsVisited[nextNode] = true;
-                            happyCoupleCount += 2 +
-                                    BFS(nextNode, reversedGraph, bfsVisited) +
-                                    BFS(curNode, reversedGraph, bfsVisited);
-                        }
-                        break;
+                    int cycleLen=curNodeLen-nodeLenMap.get(nextNode);
+                    longestCycleCnt=Math.max(longestCycleCnt,cycleLen);
+                    //happy couple case :::
+                    if(cycleLen==2)
+                    {
+                        boolean [] visitedG=new boolean [n];
+                        visitedG[curNode]=visitedG[nextNode]=true;
+                        happyCoupleCnt+=2+BFS(curNode,g,visitedG)+BFS(nextNode,g,visitedG);
                     }
-                    curNode = nextNode;
+
+                    break;
                 }
+
+
+
+                curNode=nextNode;
+
+
             }
+
+            
+
+
         }
-        return Math.max(longestCycle, happyCoupleCount);
+
+
+        return Math.max(longestCycleCnt,happyCoupleCnt);
+        
     }
 }
