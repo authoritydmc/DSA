@@ -344,6 +344,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1036-rotting-oranges](https://github.com/authoritydmc/DSA/tree/master/1036-rotting-oranges) |
 | [1396-count-servers-that-communicate](https://github.com/authoritydmc/DSA/tree/master/1396-count-servers-that-communicate) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/authoritydmc/DSA/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
+| [1558-course-schedule-iv](https://github.com/authoritydmc/DSA/tree/master/1558-course-schedule-iv) |
 | [2038-nearest-exit-from-entrance-in-maze](https://github.com/authoritydmc/DSA/tree/master/2038-nearest-exit-from-entrance-in-maze) |
 | [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/authoritydmc/DSA/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/authoritydmc/DSA/tree/master/2493-reverse-odd-levels-of-binary-tree) |
@@ -392,6 +393,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0820-find-eventual-safe-states](https://github.com/authoritydmc/DSA/tree/master/0820-find-eventual-safe-states) |
 | [0975-range-sum-of-bst](https://github.com/authoritydmc/DSA/tree/master/0975-range-sum-of-bst) |
 | [1396-count-servers-that-communicate](https://github.com/authoritydmc/DSA/tree/master/1396-count-servers-that-communicate) |
+| [1558-course-schedule-iv](https://github.com/authoritydmc/DSA/tree/master/1558-course-schedule-iv) |
 | [2246-maximum-employees-to-be-invited-to-a-meeting](https://github.com/authoritydmc/DSA/tree/master/2246-maximum-employees-to-be-invited-to-a-meeting) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/authoritydmc/DSA/tree/master/2493-reverse-odd-levels-of-binary-tree) |
 | [3058-maximum-number-of-k-divisible-components](https://github.com/authoritydmc/DSA/tree/master/3058-maximum-number-of-k-divisible-components) |
@@ -648,6 +650,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0803-cheapest-flights-within-k-stops](https://github.com/authoritydmc/DSA/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0820-find-eventual-safe-states](https://github.com/authoritydmc/DSA/tree/master/0820-find-eventual-safe-states) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/authoritydmc/DSA/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
+| [1558-course-schedule-iv](https://github.com/authoritydmc/DSA/tree/master/1558-course-schedule-iv) |
 | [2246-maximum-employees-to-be-invited-to-a-meeting](https://github.com/authoritydmc/DSA/tree/master/2246-maximum-employees-to-be-invited-to-a-meeting) |
 | [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/authoritydmc/DSA/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
 | [2711-minimum-time-to-visit-a-cell-in-a-grid](https://github.com/authoritydmc/DSA/tree/master/2711-minimum-time-to-visit-a-cell-in-a-grid) |
@@ -696,5 +699,6 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0820-find-eventual-safe-states](https://github.com/authoritydmc/DSA/tree/master/0820-find-eventual-safe-states) |
+| [1558-course-schedule-iv](https://github.com/authoritydmc/DSA/tree/master/1558-course-schedule-iv) |
 | [2246-maximum-employees-to-be-invited-to-a-meeting](https://github.com/authoritydmc/DSA/tree/master/2246-maximum-employees-to-be-invited-to-a-meeting) |
 <!---LeetCode Topics End-->
