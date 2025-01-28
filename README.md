@@ -118,6 +118,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0503-next-greater-element-ii](https://github.com/authoritydmc/DSA/tree/master/0503-next-greater-element-ii) |
 | [0605-can-place-flowers](https://github.com/authoritydmc/DSA/tree/master/0605-can-place-flowers) |
 | [0643-maximum-average-subarray-i](https://github.com/authoritydmc/DSA/tree/master/0643-maximum-average-subarray-i) |
+| [0695-max-area-of-island](https://github.com/authoritydmc/DSA/tree/master/0695-max-area-of-island) |
 | [0739-daily-temperatures](https://github.com/authoritydmc/DSA/tree/master/0739-daily-temperatures) |
 | [0747-min-cost-climbing-stairs](https://github.com/authoritydmc/DSA/tree/master/0747-min-cost-climbing-stairs) |
 | [0748-largest-number-at-least-twice-of-others](https://github.com/authoritydmc/DSA/tree/master/0748-largest-number-at-least-twice-of-others) |
@@ -339,6 +340,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0322-coin-change](https://github.com/authoritydmc/DSA/tree/master/0322-coin-change) |
 | [0407-trapping-rain-water-ii](https://github.com/authoritydmc/DSA/tree/master/0407-trapping-rain-water-ii) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/authoritydmc/DSA/tree/master/0515-find-largest-value-in-each-tree-row) |
+| [0695-max-area-of-island](https://github.com/authoritydmc/DSA/tree/master/0695-max-area-of-island) |
 | [0787-sliding-puzzle](https://github.com/authoritydmc/DSA/tree/master/0787-sliding-puzzle) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/authoritydmc/DSA/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0820-find-eventual-safe-states](https://github.com/authoritydmc/DSA/tree/master/0820-find-eventual-safe-states) |
@@ -391,6 +393,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/authoritydmc/DSA/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/authoritydmc/DSA/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0538-convert-bst-to-greater-tree](https://github.com/authoritydmc/DSA/tree/master/0538-convert-bst-to-greater-tree) |
+| [0695-max-area-of-island](https://github.com/authoritydmc/DSA/tree/master/0695-max-area-of-island) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/authoritydmc/DSA/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0820-find-eventual-safe-states](https://github.com/authoritydmc/DSA/tree/master/0820-find-eventual-safe-states) |
 | [0975-range-sum-of-bst](https://github.com/authoritydmc/DSA/tree/master/0975-range-sum-of-bst) |
@@ -463,6 +466,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0036-valid-sudoku](https://github.com/authoritydmc/DSA/tree/master/0036-valid-sudoku) |
 | [0064-minimum-path-sum](https://github.com/authoritydmc/DSA/tree/master/0064-minimum-path-sum) |
 | [0407-trapping-rain-water-ii](https://github.com/authoritydmc/DSA/tree/master/0407-trapping-rain-water-ii) |
+| [0695-max-area-of-island](https://github.com/authoritydmc/DSA/tree/master/0695-max-area-of-island) |
 | [0787-sliding-puzzle](https://github.com/authoritydmc/DSA/tree/master/0787-sliding-puzzle) |
 | [1036-rotting-oranges](https://github.com/authoritydmc/DSA/tree/master/1036-rotting-oranges) |
 | [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/authoritydmc/DSA/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
@@ -697,6 +701,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Union Find
 |  |
 | ------- |
+| [0695-max-area-of-island](https://github.com/authoritydmc/DSA/tree/master/0695-max-area-of-island) |
 | [1396-count-servers-that-communicate](https://github.com/authoritydmc/DSA/tree/master/1396-count-servers-that-communicate) |
 | [2764-maximum-number-of-fish-in-a-grid](https://github.com/authoritydmc/DSA/tree/master/2764-maximum-number-of-fish-in-a-grid) |
 | [3219-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/authoritydmc/DSA/tree/master/3219-make-lexicographically-smallest-array-by-swapping-elements) |
