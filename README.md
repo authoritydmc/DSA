@@ -340,6 +340,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0322-coin-change](https://github.com/authoritydmc/DSA/tree/master/0322-coin-change) |
 | [0407-trapping-rain-water-ii](https://github.com/authoritydmc/DSA/tree/master/0407-trapping-rain-water-ii) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/authoritydmc/DSA/tree/master/0515-find-largest-value-in-each-tree-row) |
+| [0684-redundant-connection](https://github.com/authoritydmc/DSA/tree/master/0684-redundant-connection) |
 | [0695-max-area-of-island](https://github.com/authoritydmc/DSA/tree/master/0695-max-area-of-island) |
 | [0787-sliding-puzzle](https://github.com/authoritydmc/DSA/tree/master/0787-sliding-puzzle) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/authoritydmc/DSA/tree/master/0803-cheapest-flights-within-k-stops) |
@@ -393,6 +394,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/authoritydmc/DSA/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/authoritydmc/DSA/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0538-convert-bst-to-greater-tree](https://github.com/authoritydmc/DSA/tree/master/0538-convert-bst-to-greater-tree) |
+| [0684-redundant-connection](https://github.com/authoritydmc/DSA/tree/master/0684-redundant-connection) |
 | [0695-max-area-of-island](https://github.com/authoritydmc/DSA/tree/master/0695-max-area-of-island) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/authoritydmc/DSA/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0820-find-eventual-safe-states](https://github.com/authoritydmc/DSA/tree/master/0820-find-eventual-safe-states) |
@@ -655,6 +657,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Graph
 |  |
 | ------- |
+| [0684-redundant-connection](https://github.com/authoritydmc/DSA/tree/master/0684-redundant-connection) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/authoritydmc/DSA/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0820-find-eventual-safe-states](https://github.com/authoritydmc/DSA/tree/master/0820-find-eventual-safe-states) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/authoritydmc/DSA/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
@@ -701,6 +704,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Union Find
 |  |
 | ------- |
+| [0684-redundant-connection](https://github.com/authoritydmc/DSA/tree/master/0684-redundant-connection) |
 | [0695-max-area-of-island](https://github.com/authoritydmc/DSA/tree/master/0695-max-area-of-island) |
 | [1396-count-servers-that-communicate](https://github.com/authoritydmc/DSA/tree/master/1396-count-servers-that-communicate) |
 | [2764-maximum-number-of-fish-in-a-grid](https://github.com/authoritydmc/DSA/tree/master/2764-maximum-number-of-fish-in-a-grid) |
