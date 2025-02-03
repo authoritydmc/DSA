@@ -8,23 +8,22 @@ class Solution {
         for (int i = 0; i < nums.length; i++) {
             if (nums[i] < prev) {
                 longest_desc++;
-                res = Math.max(res, longest_inc);
+        
                 longest_inc = 1;
             } else if (nums[i] > prev) {
                 longest_inc++;
-                res = Math.max(res, longest_desc);
+
                 longest_desc = 1;
             } else {
-                res = Math.max(res, longest_desc);
-                res = Math.max(res, longest_inc);
+
                 longest_inc = 1;
                 longest_desc = 1;
             }
+            res = Math.max(res, longest_desc);
+            res = Math.max(res, longest_inc);
             prev = nums[i];
         }
-        res = Math.max(res, longest_desc);
-        res = Math.max(res, longest_inc);
-
+      
         return res;
     }
 }
