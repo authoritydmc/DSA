@@ -171,6 +171,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3188-find-champion-i](https://github.com/authoritydmc/DSA/tree/master/3188-find-champion-i) |
 | [3219-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/authoritydmc/DSA/tree/master/3219-make-lexicographically-smallest-array-by-swapping-elements) |
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/authoritydmc/DSA/tree/master/3309-count-prefix-and-suffix-pairs-i) |
+| [3372-longest-strictly-increasing-or-strictly-decreasing-subarray](https://github.com/authoritydmc/DSA/tree/master/3372-longest-strictly-increasing-or-strictly-decreasing-subarray) |
 | [3427-special-array-ii](https://github.com/authoritydmc/DSA/tree/master/3427-special-array-ii) |
 | [3429-special-array-i](https://github.com/authoritydmc/DSA/tree/master/3429-special-array-i) |
 | [3476-find-minimum-operations-to-make-all-elements-divisible-by-three](https://github.com/authoritydmc/DSA/tree/master/3476-find-minimum-operations-to-make-all-elements-divisible-by-three) |
