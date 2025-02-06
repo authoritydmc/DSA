@@ -136,6 +136,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1217-relative-sort-array](https://github.com/authoritydmc/DSA/tree/master/1217-relative-sort-array) |
 | [1319-unique-number-of-occurrences](https://github.com/authoritydmc/DSA/tree/master/1319-unique-number-of-occurrences) |
 | [1335-maximum-candies-allocated-to-k-children](https://github.com/authoritydmc/DSA/tree/master/1335-maximum-candies-allocated-to-k-children) |
+| [1364-tuple-with-same-product](https://github.com/authoritydmc/DSA/tree/master/1364-tuple-with-same-product) |
 | [1392-find-the-difference-of-two-arrays](https://github.com/authoritydmc/DSA/tree/master/1392-find-the-difference-of-two-arrays) |
 | [1396-count-servers-that-communicate](https://github.com/authoritydmc/DSA/tree/master/1396-count-servers-that-communicate) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/authoritydmc/DSA/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
@@ -226,6 +227,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/authoritydmc/DSA/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
 | [1217-relative-sort-array](https://github.com/authoritydmc/DSA/tree/master/1217-relative-sort-array) |
 | [1319-unique-number-of-occurrences](https://github.com/authoritydmc/DSA/tree/master/1319-unique-number-of-occurrences) |
+| [1364-tuple-with-same-product](https://github.com/authoritydmc/DSA/tree/master/1364-tuple-with-same-product) |
 | [1392-find-the-difference-of-two-arrays](https://github.com/authoritydmc/DSA/tree/master/1392-find-the-difference-of-two-arrays) |
 | [1502-construct-k-palindrome-strings](https://github.com/authoritydmc/DSA/tree/master/1502-construct-k-palindrome-strings) |
 | [1635-number-of-good-pairs](https://github.com/authoritydmc/DSA/tree/master/1635-number-of-good-pairs) |
@@ -250,6 +252,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0387-first-unique-character-in-a-string](https://github.com/authoritydmc/DSA/tree/master/0387-first-unique-character-in-a-string) |
 | [0829-subdomain-visit-count](https://github.com/authoritydmc/DSA/tree/master/0829-subdomain-visit-count) |
 | [0837-most-common-word](https://github.com/authoritydmc/DSA/tree/master/0837-most-common-word) |
+| [1364-tuple-with-same-product](https://github.com/authoritydmc/DSA/tree/master/1364-tuple-with-same-product) |
 | [1396-count-servers-that-communicate](https://github.com/authoritydmc/DSA/tree/master/1396-count-servers-that-communicate) |
 | [1502-construct-k-palindrome-strings](https://github.com/authoritydmc/DSA/tree/master/1502-construct-k-palindrome-strings) |
 | [1635-number-of-good-pairs](https://github.com/authoritydmc/DSA/tree/master/1635-number-of-good-pairs) |
