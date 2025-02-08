@@ -235,6 +235,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/authoritydmc/DSA/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
 | [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/authoritydmc/DSA/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
 | [2300-construct-string-with-repeat-limit](https://github.com/authoritydmc/DSA/tree/master/2300-construct-string-with-repeat-limit) |
+| [2434-design-a-number-container-system](https://github.com/authoritydmc/DSA/tree/master/2434-design-a-number-container-system) |
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/authoritydmc/DSA/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [2599-take-k-of-each-character-from-left-and-right](https://github.com/authoritydmc/DSA/tree/master/2599-take-k-of-each-character-from-left-and-right) |
 | [2640-maximum-number-of-integers-to-choose-from-a-range-i](https://github.com/authoritydmc/DSA/tree/master/2640-maximum-number-of-integers-to-choose-from-a-range-i) |
@@ -611,6 +612,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2300-construct-string-with-repeat-limit](https://github.com/authoritydmc/DSA/tree/master/2300-construct-string-with-repeat-limit) |
 | [2327-largest-number-after-digit-swaps-by-parity](https://github.com/authoritydmc/DSA/tree/master/2327-largest-number-after-digit-swaps-by-parity) |
 | [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/authoritydmc/DSA/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
+| [2434-design-a-number-container-system](https://github.com/authoritydmc/DSA/tree/master/2434-design-a-number-container-system) |
 | [2616-maximal-score-after-applying-k-operations](https://github.com/authoritydmc/DSA/tree/master/2616-maximal-score-after-applying-k-operations) |
 | [2695-find-score-of-an-array-after-marking-all-elements](https://github.com/authoritydmc/DSA/tree/master/2695-find-score-of-an-array-after-marking-all-elements) |
 | [2711-minimum-time-to-visit-a-cell-in-a-grid](https://github.com/authoritydmc/DSA/tree/master/2711-minimum-time-to-visit-a-cell-in-a-grid) |
@@ -633,6 +635,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0307-range-sum-query-mutable](https://github.com/authoritydmc/DSA/tree/master/0307-range-sum-query-mutable) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/authoritydmc/DSA/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1572-subrectangle-queries](https://github.com/authoritydmc/DSA/tree/master/1572-subrectangle-queries) |
+| [2434-design-a-number-container-system](https://github.com/authoritydmc/DSA/tree/master/2434-design-a-number-container-system) |
 ## Doubly-Linked List
 |  |
 | ------- |
@@ -730,4 +733,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0820-find-eventual-safe-states](https://github.com/authoritydmc/DSA/tree/master/0820-find-eventual-safe-states) |
 | [1558-course-schedule-iv](https://github.com/authoritydmc/DSA/tree/master/1558-course-schedule-iv) |
 | [2246-maximum-employees-to-be-invited-to-a-meeting](https://github.com/authoritydmc/DSA/tree/master/2246-maximum-employees-to-be-invited-to-a-meeting) |
+## Ordered Set
+|  |
+| ------- |
+| [2434-design-a-number-container-system](https://github.com/authoritydmc/DSA/tree/master/2434-design-a-number-container-system) |
 <!---LeetCode Topics End-->
