@@ -161,6 +161,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2358-number-of-ways-to-split-array](https://github.com/authoritydmc/DSA/tree/master/2358-number-of-ways-to-split-array) |
 | [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/authoritydmc/DSA/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
 | [2398-check-if-matrix-is-x-matrix](https://github.com/authoritydmc/DSA/tree/master/2398-check-if-matrix-is-x-matrix) |
+| [2448-count-number-of-bad-pairs](https://github.com/authoritydmc/DSA/tree/master/2448-count-number-of-bad-pairs) |
 | [2465-shifting-letters-ii](https://github.com/authoritydmc/DSA/tree/master/2465-shifting-letters-ii) |
 | [2533-bitwise-xor-of-all-pairings](https://github.com/authoritydmc/DSA/tree/master/2533-bitwise-xor-of-all-pairings) |
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/authoritydmc/DSA/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
@@ -236,6 +237,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/authoritydmc/DSA/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
 | [2300-construct-string-with-repeat-limit](https://github.com/authoritydmc/DSA/tree/master/2300-construct-string-with-repeat-limit) |
 | [2434-design-a-number-container-system](https://github.com/authoritydmc/DSA/tree/master/2434-design-a-number-container-system) |
+| [2448-count-number-of-bad-pairs](https://github.com/authoritydmc/DSA/tree/master/2448-count-number-of-bad-pairs) |
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/authoritydmc/DSA/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [2599-take-k-of-each-character-from-left-and-right](https://github.com/authoritydmc/DSA/tree/master/2599-take-k-of-each-character-from-left-and-right) |
 | [2640-maximum-number-of-integers-to-choose-from-a-range-i](https://github.com/authoritydmc/DSA/tree/master/2640-maximum-number-of-integers-to-choose-from-a-range-i) |
@@ -261,6 +263,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1635-number-of-good-pairs](https://github.com/authoritydmc/DSA/tree/master/1635-number-of-good-pairs) |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/authoritydmc/DSA/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
 | [2300-construct-string-with-repeat-limit](https://github.com/authoritydmc/DSA/tree/master/2300-construct-string-with-repeat-limit) |
+| [2448-count-number-of-bad-pairs](https://github.com/authoritydmc/DSA/tree/master/2448-count-number-of-bad-pairs) |
 | [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/authoritydmc/DSA/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
 | [3455-minimum-length-of-string-after-operations](https://github.com/authoritydmc/DSA/tree/master/3455-minimum-length-of-string-after-operations) |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/authoritydmc/DSA/tree/master/3629-total-characters-in-string-after-transformations-i) |
@@ -305,6 +308,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1146-greatest-common-divisor-of-strings](https://github.com/authoritydmc/DSA/tree/master/1146-greatest-common-divisor-of-strings) |
 | [1236-n-th-tribonacci-number](https://github.com/authoritydmc/DSA/tree/master/1236-n-th-tribonacci-number) |
 | [1635-number-of-good-pairs](https://github.com/authoritydmc/DSA/tree/master/1635-number-of-good-pairs) |
+| [2448-count-number-of-bad-pairs](https://github.com/authoritydmc/DSA/tree/master/2448-count-number-of-bad-pairs) |
 | [2556-convert-the-temperature](https://github.com/authoritydmc/DSA/tree/master/2556-convert-the-temperature) |
 | [2812-find-the-maximum-achievable-number](https://github.com/authoritydmc/DSA/tree/master/2812-find-the-maximum-achievable-number) |
 | [2903-insert-greatest-common-divisors-in-linked-list](https://github.com/authoritydmc/DSA/tree/master/2903-insert-greatest-common-divisors-in-linked-list) |
