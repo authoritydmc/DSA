@@ -141,6 +141,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1364-tuple-with-same-product](https://github.com/authoritydmc/DSA/tree/master/1364-tuple-with-same-product) |
 | [1392-find-the-difference-of-two-arrays](https://github.com/authoritydmc/DSA/tree/master/1392-find-the-difference-of-two-arrays) |
 | [1396-count-servers-that-communicate](https://github.com/authoritydmc/DSA/tree/master/1396-count-servers-that-communicate) |
+| [1477-product-of-the-last-k-numbers](https://github.com/authoritydmc/DSA/tree/master/1477-product-of-the-last-k-numbers) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/authoritydmc/DSA/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1524-string-matching-in-an-array](https://github.com/authoritydmc/DSA/tree/master/1524-string-matching-in-an-array) |
 | [1528-kids-with-the-greatest-number-of-candies](https://github.com/authoritydmc/DSA/tree/master/1528-kids-with-the-greatest-number-of-candies) |
@@ -312,6 +313,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1086-divisor-game](https://github.com/authoritydmc/DSA/tree/master/1086-divisor-game) |
 | [1146-greatest-common-divisor-of-strings](https://github.com/authoritydmc/DSA/tree/master/1146-greatest-common-divisor-of-strings) |
 | [1236-n-th-tribonacci-number](https://github.com/authoritydmc/DSA/tree/master/1236-n-th-tribonacci-number) |
+| [1477-product-of-the-last-k-numbers](https://github.com/authoritydmc/DSA/tree/master/1477-product-of-the-last-k-numbers) |
 | [1635-number-of-good-pairs](https://github.com/authoritydmc/DSA/tree/master/1635-number-of-good-pairs) |
 | [2448-count-number-of-bad-pairs](https://github.com/authoritydmc/DSA/tree/master/2448-count-number-of-bad-pairs) |
 | [2556-convert-the-temperature](https://github.com/authoritydmc/DSA/tree/master/2556-convert-the-temperature) |
@@ -567,6 +569,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0209-minimum-size-subarray-sum](https://github.com/authoritydmc/DSA/tree/master/0209-minimum-size-subarray-sum) |
 | [0238-product-of-array-except-self](https://github.com/authoritydmc/DSA/tree/master/0238-product-of-array-except-self) |
 | [0878-shifting-letters](https://github.com/authoritydmc/DSA/tree/master/0878-shifting-letters) |
+| [1477-product-of-the-last-k-numbers](https://github.com/authoritydmc/DSA/tree/master/1477-product-of-the-last-k-numbers) |
 | [1537-maximum-score-after-splitting-a-string](https://github.com/authoritydmc/DSA/tree/master/1537-maximum-score-after-splitting-a-string) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/authoritydmc/DSA/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [2145-grid-game](https://github.com/authoritydmc/DSA/tree/master/2145-grid-game) |
@@ -651,6 +654,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0208-implement-trie-prefix-tree](https://github.com/authoritydmc/DSA/tree/master/0208-implement-trie-prefix-tree) |
 | [0307-range-sum-query-mutable](https://github.com/authoritydmc/DSA/tree/master/0307-range-sum-query-mutable) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/authoritydmc/DSA/tree/master/0789-kth-largest-element-in-a-stream) |
+| [1477-product-of-the-last-k-numbers](https://github.com/authoritydmc/DSA/tree/master/1477-product-of-the-last-k-numbers) |
 | [1572-subrectangle-queries](https://github.com/authoritydmc/DSA/tree/master/1572-subrectangle-queries) |
 | [2434-design-a-number-container-system](https://github.com/authoritydmc/DSA/tree/master/2434-design-a-number-container-system) |
 ## Doubly-Linked List
@@ -713,6 +717,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0789-kth-largest-element-in-a-stream](https://github.com/authoritydmc/DSA/tree/master/0789-kth-largest-element-in-a-stream) |
+| [1477-product-of-the-last-k-numbers](https://github.com/authoritydmc/DSA/tree/master/1477-product-of-the-last-k-numbers) |
 ## Bit Manipulation
 |  |
 | ------- |
