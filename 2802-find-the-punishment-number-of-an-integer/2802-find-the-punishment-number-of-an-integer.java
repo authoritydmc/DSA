@@ -22,10 +22,7 @@ class Solution {
         for (int j = ind; j < square.length(); j++) {
             String sub = square.substring(ind, j + 1); // Extracting valid substring
 
-            // Avoid leading zeros in substrings unless it's "0"
-            // if (sub.length() > 1 && sub.charAt(0) == '0') {
-            //     continue;
-            // }
+         
 
             int subVal = Integer.parseInt(sub);
             if (checkSpcl(square, num, curSum + subVal, j + 1)) {
