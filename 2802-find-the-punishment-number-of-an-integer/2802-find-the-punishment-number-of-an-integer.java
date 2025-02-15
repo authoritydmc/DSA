@@ -1,5 +1,12 @@
 class Solution {
 
+    private static final Set<Integer> specialNumbers = Set.of(1, 9, 10, 36, 45, 55, 82, 91, 99, 100, 235, 297, 369, 370,
+            379, 414, 657, 675, 703, 756, 792, 909, 918, 945, 964, 990, 991, 999, 1000);
+
+    public boolean isSpecialNumber(int n) {
+        return specialNumbers.contains(n);
+    }
+
     private boolean checkSpcl(String square, int num, int curSum, int ind) {
         // Base condition: If the sum matches num and we used all digits, it's valid
         if (curSum == num && ind == square.length()) {
@@ -14,12 +21,12 @@ class Solution {
         // Try different partitions of the number string
         for (int j = ind; j < square.length(); j++) {
             String sub = square.substring(ind, j + 1); // Extracting valid substring
-            
+
             // Avoid leading zeros in substrings unless it's "0"
-            if (sub.length() > 1 && sub.charAt(0) == '0') {
-                continue;
-            }
-            
+            // if (sub.length() > 1 && sub.charAt(0) == '0') {
+            //     continue;
+            // }
+
             int subVal = Integer.parseInt(sub);
             if (checkSpcl(square, num, curSum + subVal, j + 1)) {
                 return true; // If valid, return immediately
@@ -41,5 +48,4 @@ class Solution {
         return sum;
     }
 
-   
 }
