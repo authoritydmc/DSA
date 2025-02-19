@@ -29,7 +29,7 @@ class Solution {
            return true;
 
             //backtrack
-            if(cur.length()>0)
+          
             cur.deleteCharAt(cur.length()-1);
             
         }
