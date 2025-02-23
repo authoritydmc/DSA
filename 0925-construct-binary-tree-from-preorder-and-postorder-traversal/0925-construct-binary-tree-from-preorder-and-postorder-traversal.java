@@ -43,6 +43,6 @@ class Solution {
         for(int i=0;i<postorder.length;i++)
             idxMap.put(postorder[i],i);
         
-        return build(preorder,postorder,0,preorder.length-1,0,postorder.length);
+        return build(preorder,postorder,0,preorder.length-1,0,postorder.length-1);
     }
 }
