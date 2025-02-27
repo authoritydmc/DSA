@@ -6,8 +6,6 @@ class Solution {
     private int recursive(int[] arr, int i, int j) {
         if(memo[i][j]!=-1)
         return memo[i][j];
-        if (i >= arr.length || j >= arr.length)
-            return 0;
         int length = 0;
         int n = arr[i] + arr[j];
         if (map.containsKey(n))
