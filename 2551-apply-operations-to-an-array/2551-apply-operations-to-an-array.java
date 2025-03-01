@@ -1,26 +1,26 @@
 class Solution {
     public int[] applyOperations(int[] nums) {
-
-        for (int i = 0; i < nums.length - 1; i++) {
+        int n = nums.length;
+        
+        
+        for (int i = 0; i < n - 1; i++) {
             if (nums[i] == nums[i + 1]) {
-                nums[i] *= 2;
-                nums[i + 1] = 0;
+                nums[i] *= 2;  
+                nums[i + 1] = 0;  
             }
         }
-        int zeros_ind = nums.length - 1;
-        int iter = nums.length - 1;
 
-        while (iter >= 0) {
-            int n = nums[iter];
-            if (n == 0) {
-                // from this index till zero_ind move nums forwards
-                int movers = iter;
-                while (movers < zeros_ind)
-                    nums[movers] = nums[++movers];
-
-                nums[zeros_ind--] = 0;
+        // Step 2: Move all non-zero elements to the front
+        int insertPos = 0;  
+        for (int num : nums) {
+            if (num != 0) {
+                nums[insertPos++] = num;
             }
-            iter--;
+        }
+
+      
+        while (insertPos < n) {
+            nums[insertPos++] = 0;
         }
 
         return nums;
