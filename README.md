@@ -23,6 +23,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1894-merge-strings-alternately](https://github.com/authoritydmc/DSA/tree/master/1894-merge-strings-alternately) |
 | [1972-rotating-the-box](https://github.com/authoritydmc/DSA/tree/master/1972-rotating-the-box) |
 | [2232-adding-spaces-to-a-string](https://github.com/authoritydmc/DSA/tree/master/2232-adding-spaces-to-a-string) |
+| [2265-partition-array-according-to-given-pivot](https://github.com/authoritydmc/DSA/tree/master/2265-partition-array-according-to-given-pivot) |
 | [2414-move-pieces-to-obtain-a-string](https://github.com/authoritydmc/DSA/tree/master/2414-move-pieces-to-obtain-a-string) |
 | [2551-apply-operations-to-an-array](https://github.com/authoritydmc/DSA/tree/master/2551-apply-operations-to-an-array) |
 | [2707-merge-two-2d-arrays-by-summing-values](https://github.com/authoritydmc/DSA/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
@@ -170,6 +171,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2145-grid-game](https://github.com/authoritydmc/DSA/tree/master/2145-grid-game) |
 | [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/authoritydmc/DSA/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
 | [2232-adding-spaces-to-a-string](https://github.com/authoritydmc/DSA/tree/master/2232-adding-spaces-to-a-string) |
+| [2265-partition-array-according-to-given-pivot](https://github.com/authoritydmc/DSA/tree/master/2265-partition-array-according-to-given-pivot) |
 | [2343-count-unguarded-cells-in-the-grid](https://github.com/authoritydmc/DSA/tree/master/2343-count-unguarded-cells-in-the-grid) |
 | [2358-number-of-ways-to-split-array](https://github.com/authoritydmc/DSA/tree/master/2358-number-of-ways-to-split-array) |
 | [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/authoritydmc/DSA/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
@@ -572,6 +574,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/authoritydmc/DSA/tree/master/2021-remove-all-occurrences-of-a-substring) |
 | [2048-build-array-from-permutation](https://github.com/authoritydmc/DSA/tree/master/2048-build-array-from-permutation) |
 | [2232-adding-spaces-to-a-string](https://github.com/authoritydmc/DSA/tree/master/2232-adding-spaces-to-a-string) |
+| [2265-partition-array-according-to-given-pivot](https://github.com/authoritydmc/DSA/tree/master/2265-partition-array-according-to-given-pivot) |
 | [2299-merge-nodes-in-between-zeros](https://github.com/authoritydmc/DSA/tree/master/2299-merge-nodes-in-between-zeros) |
 | [2343-count-unguarded-cells-in-the-grid](https://github.com/authoritydmc/DSA/tree/master/2343-count-unguarded-cells-in-the-grid) |
 | [2551-apply-operations-to-an-array](https://github.com/authoritydmc/DSA/tree/master/2551-apply-operations-to-an-array) |
