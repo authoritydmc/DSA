@@ -1,18 +1,19 @@
+import java.util.HashMap;
+import java.util.Map;
+
 class Solution {
     public boolean divideArray(int[] nums) {
-        Map<Integer, Integer> m = new HashMap<>();
-        for (int n : nums)
-            m.merge(n, 1, Integer::sum);
-
-        int pair_cnt=0;
-
-        for(int val:m.values())
-        {
-            if(val%2!=0)
-            return false;
-            pair_cnt+=val/2;
+        Map<Integer, Integer> countMap = new HashMap<>();
+        for (int num : nums) {
+            countMap.put(num, countMap.getOrDefault(num, 0) + 1);
         }
-
-        return pair_cnt==nums.length/2;
+        
+        // Check if all counts are even
+        for (int count : countMap.values()) {
+            if (count % 2 != 0) {
+                return false;
+            }
+        }
+        return true;
     }
 }
