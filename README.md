@@ -206,6 +206,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3525-maximum-energy-boost-from-two-drinks](https://github.com/authoritydmc/DSA/tree/master/3525-maximum-energy-boost-from-two-drinks) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/authoritydmc/DSA/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 | [3581-the-two-sneaky-numbers-of-digitville](https://github.com/authoritydmc/DSA/tree/master/3581-the-two-sneaky-numbers-of-digitville) |
+| [3685-count-subarrays-of-length-three-with-a-condition](https://github.com/authoritydmc/DSA/tree/master/3685-count-subarrays-of-length-three-with-a-condition) |
 ## Greedy
 |  |
 | ------- |
