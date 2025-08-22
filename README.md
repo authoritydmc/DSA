@@ -201,6 +201,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3427-special-array-ii](https://github.com/authoritydmc/DSA/tree/master/3427-special-array-ii) |
 | [3429-special-array-i](https://github.com/authoritydmc/DSA/tree/master/3429-special-array-i) |
 | [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/authoritydmc/DSA/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
+| [3461-find-the-minimum-area-to-cover-all-ones-i](https://github.com/authoritydmc/DSA/tree/master/3461-find-the-minimum-area-to-cover-all-ones-i) |
 | [3476-find-minimum-operations-to-make-all-elements-divisible-by-three](https://github.com/authoritydmc/DSA/tree/master/3476-find-minimum-operations-to-make-all-elements-divisible-by-three) |
 | [3517-shortest-distance-after-road-addition-queries-i](https://github.com/authoritydmc/DSA/tree/master/3517-shortest-distance-after-road-addition-queries-i) |
 | [3525-maximum-energy-boost-from-two-drinks](https://github.com/authoritydmc/DSA/tree/master/3525-maximum-energy-boost-from-two-drinks) |
@@ -555,6 +556,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2764-maximum-number-of-fish-in-a-grid](https://github.com/authoritydmc/DSA/tree/master/2764-maximum-number-of-fish-in-a-grid) |
 | [3188-find-champion-i](https://github.com/authoritydmc/DSA/tree/master/3188-find-champion-i) |
 | [3227-find-missing-and-repeated-values](https://github.com/authoritydmc/DSA/tree/master/3227-find-missing-and-repeated-values) |
+| [3461-find-the-minimum-area-to-cover-all-ones-i](https://github.com/authoritydmc/DSA/tree/master/3461-find-the-minimum-area-to-cover-all-ones-i) |
 ## Trie
 |  |
 | ------- |
